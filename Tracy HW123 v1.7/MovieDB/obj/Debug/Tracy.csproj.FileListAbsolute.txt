@@ -1,0 +1,67 @@
+D:\NIDEC_MES\vcvp\NCVC\Tracy\MovieDB\obj\Debug\Tracy.csproj.ResolveComReference.cache
+D:\NIDEC_MES\vcvp\NCVC\Tracy\MovieDB\obj\Debug\Tracy.csprojResolveAssemblyReference.cache
+D:\NIDEC_MES\vcvp\NCVC\Tracy\MovieDB\obj\Debug\Tracy.Form5.resources
+D:\NIDEC_MES\vcvp\NCVC\Tracy\MovieDB\obj\Debug\Tracy.Form3.resources
+D:\NIDEC_MES\vcvp\NCVC\Tracy\MovieDB\obj\Debug\Tracy.Form1.resources
+D:\NIDEC_MES\vcvp\NCVC\Tracy\MovieDB\obj\Debug\Tracy.Properties.Resources.resources
+D:\NIDEC_MES\vcvp\NCVC\Tracy\MovieDB\obj\Debug\Tracy.csproj.GenerateResource.Cache
+D:\NIDEC_MES\VCVP\NCVC\Tracy\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\NIDEC_MES\VCVP\NCVC\Tracy\MovieDB\bin\Debug\Interop.VBIDE.dll
+D:\NIDEC_MES\VCVP\NCVC\Tracy\MovieDB\bin\Debug\LKBSDK.dll
+D:\NIDEC_MES\VCVP\NCVC\Tracy\MovieDB\bin\Debug\Tracy.exe
+D:\NIDEC_MES\VCVP\NCVC\Tracy\MovieDB\bin\Debug\Tracy.pdb
+D:\NIDEC_MES\VCVP\NCVC\Tracy\MovieDB\bin\Debug\MathNet.Numerics.dll
+D:\NIDEC_MES\VCVP\NCVC\Tracy\MovieDB\bin\Debug\MathNet.Numerics.xml
+D:\NIDEC_MES\VCVP\NCVC\Tracy\MovieDB\obj\Debug\Tracy.exe
+D:\NIDEC_MES\VCVP\NCVC\Tracy\MovieDB\obj\Debug\Tracy.pdb
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\obj\Debug\Tracy.csproj.ResolveComReference.cache
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\obj\Debug\Tracy.exe
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\obj\Debug\Tracy.pdb
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\bin\Debug\Tracy.exe
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\bin\Debug\Tracy.pdb
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\obj\Debug\Tracy.csprojResolveAssemblyReference.cache
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\obj\Debug\Tracy.Form5.resources
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\obj\Debug\Tracy.Form3.resources
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\obj\Debug\Tracy.Form1.resources
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\obj\Debug\Tracy.Properties.Resources.resources
+C:\Users\qa28.NCVC\Desktop\Tracy HW23\MovieDB\obj\Debug\Tracy.csproj.GenerateResource.Cache
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\obj\Debug\Tracy.csproj.ResolveComReference.cache
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\obj\Debug\Tracy.exe
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\obj\Debug\Tracy.pdb
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\bin\Debug\Tracy.exe
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\bin\Debug\Tracy.pdb
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\obj\Debug\Tracy.csprojResolveAssemblyReference.cache
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\obj\Debug\Tracy.Form5.resources
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\obj\Debug\Tracy.Form3.resources
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\obj\Debug\Tracy.Form1.resources
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\obj\Debug\Tracy.Properties.Resources.resources
+C:\Users\qa28.NCVC\Desktop\Tracy HW123\MovieDB\obj\Debug\Tracy.csproj.GenerateResource.Cache
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\obj\Debug\Tracy.csproj.ResolveComReference.cache
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\obj\Debug\Tracy.exe
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\obj\Debug\Tracy.pdb
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\bin\Debug\Interop.VBIDE.dll
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\bin\Debug\LKBSDK.dll
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\bin\Debug\Tracy.exe
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\bin\Debug\Tracy.pdb
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\bin\Debug\MathNet.Numerics.dll
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\bin\Debug\MathNet.Numerics.xml
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\obj\Debug\Tracy.Login.resources
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\obj\Debug\Tracy.Input.resources
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\obj\Debug\Tracy.Main.resources
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\obj\Debug\Tracy.Properties.Resources.resources
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\obj\Debug\Tracy.csproj.GenerateResource.Cache
+D:\GIT HUB\NCVC_GIT\Tracy HW123 v1.7\MovieDB\obj\Debug\Tracy.csprojResolveAssemblyReference.cache
+D:\GIT_HUB\NCVC\Tracy HW123 v1.7\MovieDB\obj\Debug\Tracy.csproj.ResolveComReference.cache
+D:\GIT_HUB\NCVC\Tracy HW123 v1.7\MovieDB\obj\Debug\Tracy.exe
+D:\GIT_HUB\NCVC\Tracy HW123 v1.7\MovieDB\obj\Debug\Tracy.pdb

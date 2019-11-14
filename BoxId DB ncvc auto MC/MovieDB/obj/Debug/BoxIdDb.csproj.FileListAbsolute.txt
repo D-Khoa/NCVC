@@ -1,0 +1,579 @@
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form6.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form4.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form5.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form3.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form1.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form6.resources
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form4.resources
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form5.resources
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form3.resources
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form1.resources
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.Form6.resources
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.Form4.resources
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.Form5.resources
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.Form3.resources
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.Form1.resources
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.Form6.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.Form4.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.Form5.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.Form3.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.Form1.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.Form2.resources
+C:\Users\takusuke.fujii\Desktop\テスター\back up\BoxId DB big csv\MovieDB\obj\Debug\BoxIdDb.Form2.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form2.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\obj\Debug\BoxIdDB.Form7.resources
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\takusuke.fujii\Desktop\テスター\BoxId DB\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form2.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form7.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form6.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form4.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form5.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form3.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\obj\Debug\BoxIdDb.Form1.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form2.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form6.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form4.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form5.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form3.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form1.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form7.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form8.resources
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form9.resources
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDb.Form9.resources
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDb.Form8.resources
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDb.Form2.resources
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDb.Form7.resources
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDb.Form6.resources
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDb.Form4.resources
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDb.Form5.resources
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDb.Form3.resources
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDb.Form1.resources
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\takusuke.fujii\Desktop\OQC\VC print test purpose\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.exe
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.pdb
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form9.resources
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form8.resources
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form2.resources
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form7.resources
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form6.resources
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form4.resources
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form5.resources
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form3.resources
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form1.resources
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\bin\Debug\Interop.VBIDE.dll
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\bin\Debug\LKBSDK.dll
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.exe
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.pdb
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.dll
+E:\Fujii\OQC\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\takusuke.fujii\Desktop\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.Form7_2.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDb.Form7_2.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDb.Form9.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDb.Form8.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDb.Form2.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDb.Form7.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDb.Form6.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDb.Form4.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDb.Form5.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDb.Form3.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDb.Form1.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc new\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmCartonContent.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmCarton.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmSearch.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+C:\Users\takusuke.fujii\Desktop\Projects\OQC\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.exe
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.pdb
+D:\BoxId DB ncvc\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\BoxId DB ncvc\MovieDB\bin\Debug\Interop.VBIDE.dll
+D:\BoxId DB ncvc\MovieDB\bin\Debug\LKBSDK.dll
+D:\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.exe
+D:\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.pdb
+D:\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.dll
+D:\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.xml
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmCartonContent.resources
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmCarton.resources
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmSearch.resources
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+D:\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.exe
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.pdb
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmCartonContent.resources
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmCarton.resources
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmSearch.resources
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\Interop.VBIDE.dll
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\LKBSDK.dll
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.exe
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.pdb
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.dll
+Z:\(01)KK03\QA\(00)Public\03 OQC\00 Box Id DB\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.xml
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.exe
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.pdb
+D:\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\Interop.VBIDE.dll
+D:\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\LKBSDK.dll
+D:\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.exe
+D:\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.pdb
+D:\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.dll
+D:\10.Source Code\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.xml
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmCartonContent.resources
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmCarton.resources
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmSearch.resources
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+D:\10.Source Code\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\takusuke.fujii\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\takusuke.fujii\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\takusuke.fujii\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\bin\Debug\BoxIdDB.exe.config
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\bin\Debug\KvComHelper.exe
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\bin\Debug\KvComHelper.pdb
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\MovieDB\bin\Debug\KvComHelper.xml
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\BoxIdDB.exe.config
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\KvComHelper.exe
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\KvComHelper.pdb
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\KvComHelper.xml
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\mt-qc20\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\BoxIdDB.exe.config
+C:\Users\mt-qc20\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\mt-qc20\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\mt-qc20\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\admin\Desktop\BoxId DB ncvc2\MovieDB\bin\Debug\BoxIdDB.exe.config
+C:\Users\admin\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\admin\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\admin\Desktop\BoxId DB ncvc2\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\admin\Desktop\BoxId DB ncvc3\MovieDB\bin\Debug\BoxIdDB.exe.config
+C:\Users\admin\Desktop\BoxId DB ncvc3\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\admin\Desktop\BoxId DB ncvc3\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\admin\Desktop\BoxId DB ncvc3\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe.config
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.exe
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.pdb
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.xml
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe.config
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.exe
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.pdb
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.xml
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe.config
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.exe
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.pdb
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.xml
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+F:\DATA COPAL\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe.config
+F:\DATA COPAL\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+F:\DATA COPAL\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.exe
+F:\DATA COPAL\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.pdb
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe.config
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.exe
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.pdb
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.VBIDE.dll
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\LKBSDK.dll
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.pdb
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\MathNet.Numerics.dll
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\MathNet.Numerics.xml
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.exe
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.pdb
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.xml
+J:\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe.config
+J:\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+J:\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.exe
+J:\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.pdb
+J:\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+J:\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.VBIDE.dll
+J:\BoxId DB ncvc4\MovieDB\bin\Debug\LKBSDK.dll
+J:\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe
+J:\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.pdb
+J:\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.exe
+J:\BoxId DB ncvc4\MovieDB\bin\Debug\MathNet.Numerics.dll
+J:\BoxId DB ncvc4\MovieDB\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+J:\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+J:\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.pdb
+J:\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.xml
+J:\BoxId DB ncvc4\MovieDB\bin\Debug\MathNet.Numerics.xml
+J:\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+J:\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+J:\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+J:\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+J:\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+J:\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+J:\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+J:\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe.config
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\BarcodeReaderControl.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\VncClientControl.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\VncClientControlSodium.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\Communication.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\Readers.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\VncClientControlCommon.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\VncClientControlCommonLib.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\SrUsbAdapterApi.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\MovieDB\bin\Debug\CommonUtility.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe.config
+D:\GIT_HUB\NCVC\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+D:\GIT_HUB\NCVC\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.exe
+D:\GIT_HUB\NCVC\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.pdb
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.VBIDE.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\LKBSDK.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe.config
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.exe
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\BoxIdDB.pdb
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.exe
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\MathNet.Numerics.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\VncClientControl.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\VncClientControlSodium.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\Communication.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\Readers.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\VncClientControlCommon.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\VncClientControlCommonLib.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\SrUsbAdapterApi.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\CommonUtility.dll
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.pdb
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\KvComHelper.xml
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\bin\Debug\MathNet.Numerics.xml
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.exe
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\MovieDB\obj\Debug\BoxIdDB.pdb
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc auto MC\MovieDB\bin\Debug\BoxIdDB.exe.config
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDB.exe
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\BoxIdDB.exe.config
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDB.exe
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDB.pdb
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\Interop.VBIDE.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\LKBSDK.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\BoxIdDB.exe
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\BoxIdDB.pdb
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\KvComHelper.exe
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\MathNet.Numerics.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\KvComHelper.pdb
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\KvComHelper.xml
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\MathNet.Numerics.xml
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.frmModelEcode.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\BarcodeReaderControl.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\VncClientControl.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\VncClientControlSodium.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\Communication.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\Readers.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\VncClientControlCommon.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\VncClientControlCommonLib.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\SrUsbAdapterApi.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\MovieDB\bin\Debug\CommonUtility.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\BoxIdDB.exe.config
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDB.exe
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDB.pdb
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\Interop.VBIDE.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\LKBSDK.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\BoxIdDB.exe
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\BoxIdDB.pdb
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\KvComHelper.exe
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\MathNet.Numerics.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\VncClientControl.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\VncClientControlSodium.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\Communication.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\Readers.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\VncClientControlCommon.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\VncClientControlCommonLib.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\SrUsbAdapterApi.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\CommonUtility.dll
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\KvComHelper.pdb
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\KvComHelper.xml
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\bin\Debug\MathNet.Numerics.xml
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.frmModelEcode.resources
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.frmShaftOverlay.resources
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.frmModule.resources
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.frmBox.resources
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDB.Properties.Resources.resources
+D:\GIT_HUB\NCVC\BoxId DB ncvc auto MC\MovieDB\obj\Debug\BoxIdDb.csproj.GenerateResource.Cache

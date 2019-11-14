@@ -1,0 +1,63 @@
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS2\MovieDB\bin\Debug\NTRS.exe
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS2\MovieDB\bin\Debug\NTRS.pdb
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS2\MovieDB\obj\Debug\NTRS.csprojResolveAssemblyReference.cache
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS2\MovieDB\obj\Debug\NTRS.csproj.ResolveComReference.cache
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS2\MovieDB\obj\Debug\NTRS.frmNTRS.resources
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS2\MovieDB\obj\Debug\NTRS.Properties.Resources.resources
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS2\MovieDB\obj\Debug\NTRS.csproj.GenerateResource.Cache
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS2\MovieDB\obj\Debug\NTRS.exe
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS2\MovieDB\obj\Debug\NTRS.pdb
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS\MovieDB\bin\Debug\NTRS.exe
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS\MovieDB\bin\Debug\NTRS.pdb
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS\MovieDB\obj\Debug\NTRS.csprojResolveAssemblyReference.cache
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS\MovieDB\obj\Debug\NTRS.csproj.ResolveComReference.cache
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS\MovieDB\obj\Debug\NTRS.frmNTRS.resources
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS\MovieDB\obj\Debug\NTRS.Properties.Resources.resources
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS\MovieDB\obj\Debug\NTRS.csproj.GenerateResource.Cache
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS\MovieDB\obj\Debug\NTRS.exe
+C:\Users\takusuke.fujii\Desktop\Projects\PQM\NTRS\MovieDB\obj\Debug\NTRS.pdb
+C:\Users\mt-qc20\Desktop\NTRS-master\MovieDB\bin\Debug\NTRS.exe
+C:\Users\mt-qc20\Desktop\NTRS-master\MovieDB\bin\Debug\NTRS.pdb
+C:\Users\mt-qc20\Desktop\NTRS-master\MovieDB\obj\Debug\NTRS.csprojResolveAssemblyReference.cache
+C:\Users\mt-qc20\Desktop\NTRS-master\MovieDB\obj\Debug\NTRS.csproj.ResolveComReference.cache
+C:\Users\mt-qc20\Desktop\NTRS-master\MovieDB\obj\Debug\NTRS.frmNTRS.resources
+C:\Users\mt-qc20\Desktop\NTRS-master\MovieDB\obj\Debug\NTRS.Properties.Resources.resources
+C:\Users\mt-qc20\Desktop\NTRS-master\MovieDB\obj\Debug\NTRS.csproj.GenerateResource.Cache
+C:\Users\mt-qc20\Desktop\NTRS-master\MovieDB\obj\Debug\NTRS.exe
+C:\Users\mt-qc20\Desktop\NTRS-master\MovieDB\obj\Debug\NTRS.pdb
+\\ncvc-326\scan\YN\SOURCE official\NTRS-master HW3 v3.3\MovieDB\bin\Debug\NTRS.exe
+\\ncvc-326\scan\YN\SOURCE official\NTRS-master HW3 v3.3\MovieDB\bin\Debug\NTRS.pdb
+\\ncvc-326\scan\YN\SOURCE official\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.csprojResolveAssemblyReference.cache
+\\ncvc-326\scan\YN\SOURCE official\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.csproj.ResolveComReference.cache
+\\ncvc-326\scan\YN\SOURCE official\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.frmNTRS.resources
+\\ncvc-326\scan\YN\SOURCE official\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.Properties.Resources.resources
+\\ncvc-326\scan\YN\SOURCE official\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.csproj.GenerateResource.Cache
+\\ncvc-326\scan\YN\SOURCE official\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.exe
+\\ncvc-326\scan\YN\SOURCE official\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.pdb
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.3\MovieDB\bin\Debug\NTRS.exe
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.3\MovieDB\bin\Debug\NTRS.pdb
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.csprojResolveAssemblyReference.cache
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.csproj.ResolveComReference.cache
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.frmNTRS.resources
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.Properties.Resources.resources
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.csproj.GenerateResource.Cache
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.exe
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.3\MovieDB\obj\Debug\NTRS.pdb
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.4\MovieDB\bin\Debug\NTRS.exe
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.4\MovieDB\bin\Debug\NTRS.pdb
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.4\MovieDB\obj\Debug\NTRS.csprojResolveAssemblyReference.cache
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.4\MovieDB\obj\Debug\NTRS.csproj.ResolveComReference.cache
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.4\MovieDB\obj\Debug\NTRS.frmNTRS.resources
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.4\MovieDB\obj\Debug\NTRS.Properties.Resources.resources
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.4\MovieDB\obj\Debug\NTRS.csproj.GenerateResource.Cache
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.4\MovieDB\obj\Debug\NTRS.exe
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v3.4\MovieDB\obj\Debug\NTRS.pdb
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v4.0\MovieDB\bin\Debug\NTRS.exe
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v4.0\MovieDB\bin\Debug\NTRS.pdb
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v4.0\MovieDB\obj\Debug\NTRS.csprojResolveAssemblyReference.cache
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v4.0\MovieDB\obj\Debug\NTRS.csproj.ResolveComReference.cache
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v4.0\MovieDB\obj\Debug\NTRS.frmNTRS.resources
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v4.0\MovieDB\obj\Debug\NTRS.Properties.Resources.resources
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v4.0\MovieDB\obj\Debug\NTRS.csproj.GenerateResource.Cache
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v4.0\MovieDB\obj\Debug\NTRS.exe
+C:\Users\qa28.NCVC\Desktop\NTRS-master HW3 v4.0\MovieDB\obj\Debug\NTRS.pdb

@@ -1,0 +1,18 @@
+D:\NCVC_GIT\NCVC\NTRS-master HW3 v3.6\MovieDB\bin\Debug\NTRS.exe
+D:\NCVC_GIT\NCVC\NTRS-master HW3 v3.6\MovieDB\bin\Debug\NTRS.pdb
+D:\NCVC_GIT\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS 3.6.csprojResolveAssemblyReference.cache
+D:\NCVC_GIT\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS 3.6.csproj.ResolveComReference.cache
+D:\NCVC_GIT\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS.frmNTRS.resources
+D:\NCVC_GIT\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS.Properties.Resources.resources
+D:\NCVC_GIT\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS 3.6.csproj.GenerateResource.Cache
+D:\NCVC_GIT\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS.exe
+D:\NCVC_GIT\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS.pdb
+D:\GIT_HUB\NCVC\NTRS-master HW3 v3.6\MovieDB\bin\Debug\NTRS.exe
+D:\GIT_HUB\NCVC\NTRS-master HW3 v3.6\MovieDB\bin\Debug\NTRS.pdb
+D:\GIT_HUB\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS 3.6.csproj.ResolveComReference.cache
+D:\GIT_HUB\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS.frmNTRS.resources
+D:\GIT_HUB\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS.Properties.Resources.resources
+D:\GIT_HUB\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS 3.6.csproj.GenerateResource.Cache
+D:\GIT_HUB\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS.exe
+D:\GIT_HUB\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS.pdb
+D:\GIT_HUB\NCVC\NTRS-master HW3 v3.6\MovieDB\obj\Debug\NTRS 3.6.csprojResolveAssemblyReference.cache

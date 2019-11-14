@@ -1,0 +1,160 @@
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\bin\Debug\KvComHelper.exe.config
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\bin\Debug\KvComHelper.exe
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\bin\Debug\KvComHelper.pdb
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\bin\Debug\KvComHelper.xml
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\obj\Debug\KvComHelper.vbprojResolveAssemblyReference.cache
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\obj\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\obj\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\obj\Debug\KvComHelper.vbproj.ResolveComReference.cache
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\obj\Debug\KvComHelper.frmEditDevice.resources
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\obj\Debug\KvComHelper.Resources.resources
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\obj\Debug\KvComHelper.vbproj.GenerateResource.Cache
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\obj\Debug\KvComHelper.exe
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\obj\Debug\KvComHelper.xml
+C:\Users\J100044515\Desktop\KvComHelper\KvComHelper\obj\Debug\KvComHelper.pdb
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\bin\Debug\KvComHelper.exe.config
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\obj\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\obj\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\obj\Debug\KvComHelper.vbproj.ResolveComReference.cache
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\obj\Debug\KvComHelper.exe
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\obj\Debug\KvComHelper.xml
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\obj\Debug\KvComHelper.pdb
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\obj\Debug\KvComHelper.vbprojResolveAssemblyReference.cache
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\obj\Debug\KvComHelper.frmEditDevice.resources
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\obj\Debug\KvComHelper.Resources.resources
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\obj\Debug\KvComHelper.vbproj.GenerateResource.Cache
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\bin\Debug\KvComHelper.exe
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\bin\Debug\KvComHelper.pdb
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\bin\Debug\KvComHelper.xml
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\J100044515\Desktop\KvComHelper2\KvComHelper\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\bin\Debug\KvComHelper.exe.config
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\bin\Debug\KvComHelper.exe
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\bin\Debug\KvComHelper.pdb
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\bin\Debug\KvComHelper.xml
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\obj\Debug\KvComHelper.vbprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\obj\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\obj\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\obj\Debug\KvComHelper.vbproj.ResolveComReference.cache
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\obj\Debug\KvComHelper.frmEditDevice.resources
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\obj\Debug\KvComHelper.Resources.resources
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\obj\Debug\KvComHelper.vbproj.GenerateResource.Cache
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\obj\Debug\KvComHelper.exe
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\obj\Debug\KvComHelper.xml
+C:\Users\admin\Desktop\Projects\BoxID\BoxId DB ncvc\KvComHelper\obj\Debug\KvComHelper.pdb
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\bin\Debug\KvComHelper.exe.config
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\bin\Debug\KvComHelper.exe
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\bin\Debug\KvComHelper.pdb
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\bin\Debug\KvComHelper.xml
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\obj\Debug\KvComHelper.vbprojResolveAssemblyReference.cache
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\obj\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\obj\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\obj\Debug\KvComHelper.vbproj.ResolveComReference.cache
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\obj\Debug\KvComHelper.frmEditDevice.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\obj\Debug\KvComHelper.Resources.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\obj\Debug\KvComHelper.vbproj.GenerateResource.Cache
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\obj\Debug\KvComHelper.exe
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\obj\Debug\KvComHelper.xml
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc2\KvComHelper\obj\Debug\KvComHelper.pdb
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\bin\Debug\KvComHelper.exe.config
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\bin\Debug\KvComHelper.exe
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\bin\Debug\KvComHelper.pdb
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\bin\Debug\KvComHelper.xml
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbprojResolveAssemblyReference.cache
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.ResolveComReference.cache
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.frmEditDevice.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.Resources.resources
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.GenerateResource.Cache
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.exe
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.xml
+C:\Users\qa28.NCVC\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.pdb
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.ResolveComReference.cache
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.frmEditDevice.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.Resources.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.GenerateResource.Cache
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.exe
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.xml
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.pdb
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbprojResolveAssemblyReference.cache
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\KvComHelper\obj\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\KvComHelper\obj\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.ResolveComReference.cache
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.frmEditDevice.resources
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.Resources.resources
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.GenerateResource.Cache
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.exe
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.xml
+C:\Users\fa9\Desktop\Barcode_Reader_MC_Server_All_E\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.pdb
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbprojResolveAssemblyReference.cache
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\KvComHelper\obj\Debug\Interop.DATABUILDERAXLibLB.dll
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\KvComHelper\obj\Debug\AxInterop.DATABUILDERAXLibLB.dll
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.ResolveComReference.cache
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.frmEditDevice.resources
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.Resources.resources
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.GenerateResource.Cache
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.exe
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.xml
+E:\Data Clock\Private\HAYWARE MODEL\Barcode Reader Auto Machine QA\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.pdb
+J:\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbprojResolveAssemblyReference.cache
+J:\BoxId DB ncvc4\KvComHelper\obj\Debug\Interop.DATABUILDERAXLibLB.dll
+J:\BoxId DB ncvc4\KvComHelper\obj\Debug\AxInterop.DATABUILDERAXLibLB.dll
+J:\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.ResolveComReference.cache
+J:\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.frmEditDevice.resources
+J:\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.Resources.resources
+J:\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.GenerateResource.Cache
+J:\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.exe
+J:\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.xml
+J:\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.pdb
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbprojResolveAssemblyReference.cache
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\KvComHelper\obj\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\KvComHelper\obj\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.ResolveComReference.cache
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.frmEditDevice.resources
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.Resources.resources
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.GenerateResource.Cache
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.exe
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.xml
+C:\Users\fa9\Desktop\THU\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.pdb
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\bin\Debug\KvComHelper.exe.config
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\bin\Debug\KvComHelper.exe
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\bin\Debug\KvComHelper.pdb
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\bin\Debug\KvComHelper.xml
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbprojResolveAssemblyReference.cache
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbprojResolveAssemblyReference.cache
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.ResolveComReference.cache
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.frmEditDevice.resources
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.Resources.resources
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.vbproj.GenerateResource.Cache
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.exe
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.xml
+D:\GIT HUB\NCVC_GIT\BoxId DB ncvc4\KvComHelper\obj\Debug\KvComHelper.pdb
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\bin\Debug\KvComHelper.exe.config
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\bin\Debug\KvComHelper.exe
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\bin\Debug\KvComHelper.pdb
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\bin\Debug\KvComHelper.xml
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\bin\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\bin\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\obj\Debug\Interop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\obj\Debug\AxInterop.DATABUILDERAXLibLB.dll
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\obj\Debug\KvComHelper.vbproj.ResolveComReference.cache
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\obj\Debug\KvComHelper.frmEditDevice.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\obj\Debug\KvComHelper.Resources.resources
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\obj\Debug\KvComHelper.vbproj.GenerateResource.Cache
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\obj\Debug\KvComHelper.exe
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\obj\Debug\KvComHelper.xml
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\obj\Debug\KvComHelper.pdb
+C:\Users\fa9\Desktop\BoxId DB ncvc auto MC\KvComHelper\obj\Debug\KvComHelper.vbprojResolveAssemblyReference.cache
