@@ -360,3 +360,7 @@ D:\GIT\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.CopyComplete
 \\192.168.193.1\barcode$\Source code\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
 \\192.168.193.1\barcode$\Source code\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDB.exe
 \\192.168.193.1\barcode$\Source code\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDB.pdb
+D:\Nidec_GitHub\NCVC\BoxId DB CAR ncvc\MovieDB\bin\Debug\BoxIdDB.exe.config
+D:\Nidec_GitHub\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.ResolveComReference.cache
+D:\Nidec_GitHub\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDB.exe
+D:\Nidec_GitHub\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDB.pdb

@@ -33,6 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DotNetBarcode">
+      <HintPath>..\..\BoxId DB CAR ncvc\MovieDB\bin\Debug\DotNetBarcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="npgsql">
       <HintPath>..\..\..\DangKhoa\FW\NidecMES\Dll\npgsql.dll</HintPath>
     </Reference>
@@ -49,34 +57,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BoxIDMainFrm.cs">
+    <Compile Include="BoxIDClass\BoxIDVo.cs" />
+    <Compile Include="BoxIDClass\ExcelClass.cs" />
+    <Compile Include="BoxIDClass\TfGeneral.cs" />
+    <Compile Include="BoxIDForm\BoxIDMainFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BoxIDMainFrm.Designer.cs">
+    <Compile Include="BoxIDForm\BoxIDMainFrm.Designer.cs">
       <DependentUpon>BoxIDMainFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CommonFrm.cs">
+    <Compile Include="BoxIDForm\CommonFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommonFrm.Designer.cs">
+    <Compile Include="BoxIDForm\CommonFrm.Designer.cs">
       <DependentUpon>CommonFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginFrm.cs">
+    <Compile Include="BoxIDForm\LoginFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginFrm.Designer.cs">
+    <Compile Include="BoxIDForm\LoginFrm.Designer.cs">
       <DependentUpon>LoginFrm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TfSQL.cs" />
-    <EmbeddedResource Include="BoxIDMainFrm.resx">
+    <Compile Include="TestFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestFrm.Designer.cs">
+      <DependentUpon>TestFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BoxIDClass\TfSQL.cs" />
+    <EmbeddedResource Include="BoxIDForm\BoxIDMainFrm.resx">
       <DependentUpon>BoxIDMainFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommonFrm.resx">
+    <EmbeddedResource Include="BoxIDForm\CommonFrm.resx">
       <DependentUpon>CommonFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginFrm.resx">
+    <EmbeddedResource Include="BoxIDForm\LoginFrm.resx">
       <DependentUpon>LoginFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -89,6 +106,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TestFrm.resx">
+      <DependentUpon>TestFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

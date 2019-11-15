@@ -10,3 +10,16 @@ D:\GIT\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.exe
 D:\GIT\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.pdb
 D:\GIT\NCVC\BoxID2019\BoxID2019\bin\Debug\npgsql.dll
 D:\GIT\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.csprojResolveAssemblyReference.cache
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\bin\Debug\BoxID2019.exe.config
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.exe
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.pdb
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\bin\Debug\BoxID2019.exe
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\bin\Debug\BoxID2019.pdb
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\bin\Debug\DotNetBarcode.dll
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.csprojResolveAssemblyReference.cache
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.BoxIDMainFrm.resources
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.CommonFrm.resources
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.LoginFrm.resources
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.Properties.Resources.resources
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.TestFrm.resources
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.csproj.GenerateResource.Cache

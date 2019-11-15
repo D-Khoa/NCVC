@@ -43,15 +43,17 @@
             this.lbUsername = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.rdbBoxIDFrom = new System.Windows.Forms.RadioButton();
             this.rdbProductSerial = new System.Windows.Forms.RadioButton();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.tsRowsCount = new System.Windows.Forms.ToolStripStatusLabel();
+            this.rdbBoxIDFrom = new System.Windows.Forms.RadioButton();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.lbModel = new System.Windows.Forms.Label();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.tsRowsCount = new System.Windows.Forms.ToolStripStatusLabel();
             this.btnAddBoxId = new System.Windows.Forms.Button();
             this.pnlBarcode = new System.Windows.Forms.Panel();
+            this.tsProcess = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tsTimer = new System.Windows.Forms.ToolStripStatusLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBoxID)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -145,6 +147,7 @@
             this.dgvBoxID.Name = "dgvBoxID";
             this.dgvBoxID.Size = new System.Drawing.Size(517, 103);
             this.dgvBoxID.TabIndex = 12;
+            this.dgvBoxID.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvBoxID_CellContentClick);
             // 
             // label6
             // 
@@ -197,18 +200,15 @@
             this.panel3.Size = new System.Drawing.Size(303, 178);
             this.panel3.TabIndex = 18;
             // 
-            // panel4
+            // rdbProductSerial
             // 
-            this.panel4.Controls.Add(this.label1);
-            this.panel4.Controls.Add(this.lbModel);
-            this.panel4.Controls.Add(this.txtBoxIDTo);
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Controls.Add(this.lbUsername);
-            this.panel4.Location = new System.Drawing.Point(325, 76);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(204, 99);
-            this.panel4.TabIndex = 19;
+            this.rdbProductSerial.AutoSize = true;
+            this.rdbProductSerial.Location = new System.Drawing.Point(12, 46);
+            this.rdbProductSerial.Name = "rdbProductSerial";
+            this.rdbProductSerial.Size = new System.Drawing.Size(91, 17);
+            this.rdbProductSerial.TabIndex = 12;
+            this.rdbProductSerial.Text = "Product Serial";
+            this.rdbProductSerial.UseVisualStyleBackColor = true;
             // 
             // rdbBoxIDFrom
             // 
@@ -223,31 +223,18 @@
             this.rdbBoxIDFrom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rdbBoxIDFrom.UseVisualStyleBackColor = true;
             // 
-            // rdbProductSerial
+            // panel4
             // 
-            this.rdbProductSerial.AutoSize = true;
-            this.rdbProductSerial.Location = new System.Drawing.Point(12, 46);
-            this.rdbProductSerial.Name = "rdbProductSerial";
-            this.rdbProductSerial.Size = new System.Drawing.Size(91, 17);
-            this.rdbProductSerial.TabIndex = 12;
-            this.rdbProductSerial.Text = "Product Serial";
-            this.rdbProductSerial.UseVisualStyleBackColor = true;
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsRowsCount});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 392);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(539, 22);
-            this.statusStrip1.TabIndex = 20;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // tsRowsCount
-            // 
-            this.tsRowsCount.Name = "tsRowsCount";
-            this.tsRowsCount.Size = new System.Drawing.Size(36, 17);
-            this.tsRowsCount.Text = "None";
+            this.panel4.Controls.Add(this.label1);
+            this.panel4.Controls.Add(this.lbModel);
+            this.panel4.Controls.Add(this.txtBoxIDTo);
+            this.panel4.Controls.Add(this.label6);
+            this.panel4.Controls.Add(this.label7);
+            this.panel4.Controls.Add(this.lbUsername);
+            this.panel4.Location = new System.Drawing.Point(325, 76);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(204, 99);
+            this.panel4.TabIndex = 19;
             // 
             // label1
             // 
@@ -267,6 +254,24 @@
             this.lbModel.TabIndex = 18;
             this.lbModel.Text = "None";
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsRowsCount,
+            this.tsProcess,
+            this.tsTimer});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 392);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(539, 22);
+            this.statusStrip1.TabIndex = 20;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // tsRowsCount
+            // 
+            this.tsRowsCount.Name = "tsRowsCount";
+            this.tsRowsCount.Size = new System.Drawing.Size(36, 17);
+            this.tsRowsCount.Text = "None";
+            // 
             // btnAddBoxId
             // 
             this.btnAddBoxId.Location = new System.Drawing.Point(93, 257);
@@ -284,6 +289,18 @@
             this.pnlBarcode.Size = new System.Drawing.Size(204, 70);
             this.pnlBarcode.TabIndex = 22;
             this.pnlBarcode.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBarcode_Paint);
+            // 
+            // tsProcess
+            // 
+            this.tsProcess.Name = "tsProcess";
+            this.tsProcess.Size = new System.Drawing.Size(467, 17);
+            this.tsProcess.Spring = true;
+            // 
+            // tsTimer
+            // 
+            this.tsTimer.Name = "tsTimer";
+            this.tsTimer.Size = new System.Drawing.Size(21, 17);
+            this.tsTimer.Text = "0 s";
             // 
             // BoxIDMainFrm
             // 
@@ -347,6 +364,8 @@
         private System.Windows.Forms.Label lbModel;
         private System.Windows.Forms.Button btnAddBoxId;
         private System.Windows.Forms.Panel pnlBarcode;
+        private System.Windows.Forms.ToolStripStatusLabel tsProcess;
+        private System.Windows.Forms.ToolStripStatusLabel tsTimer;
     }
 }
 
