@@ -131,7 +131,7 @@ namespace BoxIdDb
                     (boxId == String.Empty ? String.Empty : " WHERE boxid like '" + boxId + "%'") +
                     " order by boxid";
             }
-            else if(rdbPrintDate.Checked)
+            else if (rdbPrintDate.Checked)
             {
                 sql = "select boxid, suser, regist_date, shipdate, invoice FROM box_id_rt WHERE regist_date " +
                     "BETWEEN '" + printDate.Date + "' AND '" + printDate.Date.AddHours(23).AddMinutes(59).AddSeconds(59) + "'" +
@@ -150,7 +150,7 @@ namespace BoxIdDb
                 }
                 else
                 {
-                    sql = "select boxid, suser, regist_date, shipdate, invoice FROM box_id_rt" + 
+                    sql = "select boxid, suser, regist_date, shipdate, invoice FROM box_id_rt" +
                         " WHERE boxid='" + boxId + "'";
                 }
             }
@@ -194,7 +194,7 @@ namespace BoxIdDb
             // パネルにバーコードを表示
             pnlBarcode.Refresh();
         }
-        
+
         // サブサブプロシージャ：グリットビュー右端にボタンを追加
         private void addButtonsToDataGridView(DataGridView dgv)
         {
@@ -206,7 +206,7 @@ namespace BoxIdDb
             openBoxId.Width = 80;
             dgv.Columns.Add(openBoxId);
         }
-                
+
         // ボタン１はフォーム３を閲覧モードで開く（デレゲートなし）、ボタン２は出荷日の編集
         private void dgvBoxId_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -287,7 +287,7 @@ namespace BoxIdDb
             string user = txtUser.Text;
 
             bool bl = TfGeneral.checkOpenFormExists("frmModule");
-            if (bl) 
+            if (bl)
             {
                 MessageBox.Show("Please close brows-mode form or finish the current edit form.", "BoxId DB",
                 MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2);
@@ -296,14 +296,14 @@ namespace BoxIdDb
             {
                 frmModule f3 = new frmModule();
                 //子イベントをキャッチして、データグリッドを更新する
-                f3.RefreshEvent += delegate(object sndr, EventArgs excp) 
+                f3.RefreshEvent += delegate (object sndr, EventArgs excp)
                 {
                     updateDataGridViews(ref dgvBoxId, false);
-                    Focus(); 
+                    Focus();
                 };
 
                 f3.updateControls(String.Empty, String.Empty, DateTime.Now, String.Empty, String.Empty, user, true, false);
-                f3.Show();            
+                f3.Show();
             }
         }
 
@@ -377,7 +377,7 @@ namespace BoxIdDb
             {
                 if (buff.Name == formName) { bl = true; }
             }
-            if (bl) 
+            if (bl)
             {
                 MessageBox.Show("You need to close Form Product Serial first.", "BoxId DB",
                   MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BoxIDMainFrm));
             this.txtBoxIDFrom = new System.Windows.Forms.TextBox();
             this.txtProductSerial = new System.Windows.Forms.TextBox();
             this.txtInvoice = new System.Windows.Forms.TextBox();
@@ -46,14 +47,14 @@
             this.rdbProductSerial = new System.Windows.Forms.RadioButton();
             this.rdbBoxIDFrom = new System.Windows.Forms.RadioButton();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.cmbModel = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.lbModel = new System.Windows.Forms.Label();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.tsRowsCount = new System.Windows.Forms.ToolStripStatusLabel();
-            this.btnAddBoxId = new System.Windows.Forms.Button();
-            this.pnlBarcode = new System.Windows.Forms.Panel();
             this.tsProcess = new System.Windows.Forms.ToolStripStatusLabel();
             this.tsTimer = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btnAddBoxId = new System.Windows.Forms.Button();
+            this.pnlBarcode = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBoxID)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -66,6 +67,7 @@
             this.txtBoxIDFrom.Name = "txtBoxIDFrom";
             this.txtBoxIDFrom.Size = new System.Drawing.Size(146, 20);
             this.txtBoxIDFrom.TabIndex = 1;
+            this.txtBoxIDFrom.TextChanged += new System.EventHandler(this.txtBoxIDFrom_TextChanged);
             // 
             // txtProductSerial
             // 
@@ -168,7 +170,7 @@
             // lbUsername
             // 
             this.lbUsername.AutoSize = true;
-            this.lbUsername.Location = new System.Drawing.Point(73, 48);
+            this.lbUsername.Location = new System.Drawing.Point(70, 72);
             this.lbUsername.Name = "lbUsername";
             this.lbUsername.Size = new System.Drawing.Size(33, 13);
             this.lbUsername.TabIndex = 16;
@@ -177,7 +179,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 48);
+            this.label7.Location = new System.Drawing.Point(3, 72);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(61, 13);
             this.label7.TabIndex = 17;
@@ -225,8 +227,8 @@
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.cmbModel);
             this.panel4.Controls.Add(this.label1);
-            this.panel4.Controls.Add(this.lbModel);
             this.panel4.Controls.Add(this.txtBoxIDTo);
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.label7);
@@ -236,23 +238,23 @@
             this.panel4.Size = new System.Drawing.Size(204, 99);
             this.panel4.TabIndex = 19;
             // 
+            // cmbModel
+            // 
+            this.cmbModel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbModel.FormattingEnabled = true;
+            this.cmbModel.Location = new System.Drawing.Point(64, 39);
+            this.cmbModel.Name = "cmbModel";
+            this.cmbModel.Size = new System.Drawing.Size(129, 21);
+            this.cmbModel.TabIndex = 20;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 78);
+            this.label1.Location = new System.Drawing.Point(3, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 19;
             this.label1.Text = "Model :";
-            // 
-            // lbModel
-            // 
-            this.lbModel.AutoSize = true;
-            this.lbModel.Location = new System.Drawing.Point(73, 78);
-            this.lbModel.Name = "lbModel";
-            this.lbModel.Size = new System.Drawing.Size(33, 13);
-            this.lbModel.TabIndex = 18;
-            this.lbModel.Text = "None";
             // 
             // statusStrip1
             // 
@@ -272,24 +274,6 @@
             this.tsRowsCount.Size = new System.Drawing.Size(36, 17);
             this.tsRowsCount.Text = "None";
             // 
-            // btnAddBoxId
-            // 
-            this.btnAddBoxId.Location = new System.Drawing.Point(93, 257);
-            this.btnAddBoxId.Name = "btnAddBoxId";
-            this.btnAddBoxId.Size = new System.Drawing.Size(75, 23);
-            this.btnAddBoxId.TabIndex = 21;
-            this.btnAddBoxId.Text = "Add Box ID";
-            this.btnAddBoxId.UseVisualStyleBackColor = true;
-            // 
-            // pnlBarcode
-            // 
-            this.pnlBarcode.BackColor = System.Drawing.Color.White;
-            this.pnlBarcode.Location = new System.Drawing.Point(325, 181);
-            this.pnlBarcode.Name = "pnlBarcode";
-            this.pnlBarcode.Size = new System.Drawing.Size(204, 70);
-            this.pnlBarcode.TabIndex = 22;
-            this.pnlBarcode.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBarcode_Paint);
-            // 
             // tsProcess
             // 
             this.tsProcess.Name = "tsProcess";
@@ -301,6 +285,25 @@
             this.tsTimer.Name = "tsTimer";
             this.tsTimer.Size = new System.Drawing.Size(21, 17);
             this.tsTimer.Text = "0 s";
+            // 
+            // btnAddBoxId
+            // 
+            this.btnAddBoxId.Location = new System.Drawing.Point(93, 257);
+            this.btnAddBoxId.Name = "btnAddBoxId";
+            this.btnAddBoxId.Size = new System.Drawing.Size(75, 23);
+            this.btnAddBoxId.TabIndex = 21;
+            this.btnAddBoxId.Text = "Add Box ID";
+            this.btnAddBoxId.UseVisualStyleBackColor = true;
+            this.btnAddBoxId.Click += new System.EventHandler(this.btnAddBoxId_Click);
+            // 
+            // pnlBarcode
+            // 
+            this.pnlBarcode.BackColor = System.Drawing.Color.White;
+            this.pnlBarcode.Location = new System.Drawing.Point(325, 181);
+            this.pnlBarcode.Name = "pnlBarcode";
+            this.pnlBarcode.Size = new System.Drawing.Size(204, 70);
+            this.pnlBarcode.TabIndex = 22;
+            this.pnlBarcode.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBarcode_Paint);
             // 
             // BoxIDMainFrm
             // 
@@ -314,6 +317,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.dgvBoxID);
             this.Controls.Add(this.btnSearch);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BoxIDMainFrm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BoxID Main";
@@ -361,11 +365,11 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel tsRowsCount;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lbModel;
         private System.Windows.Forms.Button btnAddBoxId;
         private System.Windows.Forms.Panel pnlBarcode;
         private System.Windows.Forms.ToolStripStatusLabel tsProcess;
         private System.Windows.Forms.ToolStripStatusLabel tsTimer;
+        private System.Windows.Forms.ComboBox cmbModel;
     }
 }
 

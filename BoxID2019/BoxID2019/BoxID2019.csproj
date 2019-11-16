@@ -12,6 +12,22 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -36,6 +52,9 @@
     <Reference Include="DotNetBarcode">
       <HintPath>..\..\BoxId DB CAR ncvc\MovieDB\bin\Debug\DotNetBarcode.dll</HintPath>
     </Reference>
+    <Reference Include="KeepDynamic.BarCode.Windows">
+      <HintPath>..\packages\KeepDynamic.BarCode.Windows.Eval\Library\KeepDynamic.BarCode.Windows.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <EmbedInteropTypes>True</EmbedInteropTypes>
       <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
@@ -45,7 +64,9 @@
       <HintPath>..\..\..\DangKhoa\FW\NidecMES\Dll\npgsql.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -60,6 +81,12 @@
     <Compile Include="BoxIDClass\BoxIDVo.cs" />
     <Compile Include="BoxIDClass\ExcelClass.cs" />
     <Compile Include="BoxIDClass\TfGeneral.cs" />
+    <Compile Include="BoxIDForm\AddBoxIDFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoxIDForm\AddBoxIDFrm.Designer.cs">
+      <DependentUpon>AddBoxIDFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BoxIDForm\BoxIDMainFrm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +114,9 @@
       <DependentUpon>TestFrm.cs</DependentUpon>
     </Compile>
     <Compile Include="BoxIDClass\TfSQL.cs" />
+    <EmbeddedResource Include="BoxIDForm\AddBoxIDFrm.resx">
+      <DependentUpon>AddBoxIDFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BoxIDForm\BoxIDMainFrm.resx">
       <DependentUpon>BoxIDMainFrm.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,6 +164,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\NIDEC_Logo_small_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\BoxIDLarge.ico" />
+    <Content Include="Resources\BoxIDSmall.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

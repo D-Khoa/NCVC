@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KeepDynamic.Barcode.Generator;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +14,7 @@ namespace BoxID2019
 {
     public partial class BoxIDMainFrm : CommonFrm
     {
-        TfSQL SQL;
+        TfSQL SQL, SQL2;
         DataTable dt;
         StringBuilder command;
         DataGridViewButtonColumn dgvButtons;
@@ -23,12 +24,16 @@ namespace BoxID2019
             InitializeComponent();
             dt = new DataTable();
             SQL = new TfSQL("boxidcardb");
+            SQL2 = new TfSQL("pqmdb");
             command = new StringBuilder();
         }
 
         private void BoxIDMainFrm_Load(object sender, EventArgs e)
         {
-            lbModel.Text = Model;
+            command.Clear();
+            command.Append("SELECT model FROM tbl_model_dbplace ORDER BY model");
+            SQL2.getComboBoxData(command.ToString(), ref cmbModel);
+            cmbModel.SelectedIndex = 0;
             lbUsername.Text = UserName;
         }
 
@@ -37,7 +42,7 @@ namespace BoxID2019
         {
             command.Clear();
             command.Append("select model from ").Append(db_table);
-            command.Append("where model ='").Append(lbModel.Text).Append("'");
+            command.Append("where model ='").Append(cmbModel.Text).Append("'");
             return (SQL.sqlExecuteNonQuery(command.ToString(), false));
         }
 
@@ -50,7 +55,7 @@ namespace BoxID2019
             else if (checkProductSerialTable("product_serial_517eb"))
                 return "product_serial_517eb";
             else
-                return "product_serial_" + lbModel.Text;
+                return "product_serial_" + cmbModel.Text;
         }
 
         private void getDataIntoDatatable(ref DataTable table)
@@ -87,10 +92,10 @@ namespace BoxID2019
         private void updateDataGridViews(bool addButton)
         {
             getDataIntoDatatable(ref dt);
-            if (addButton) addButtonsDgv();
             dgvBoxID.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.ColumnHeader;
             dgvBoxID.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dgvBoxID.DataSource = dt;
+            if (addButton) addButtonsDgv();
             dgvBoxID.Refresh();
             pnlBarcode.Refresh();
         }
@@ -108,21 +113,42 @@ namespace BoxID2019
         //Click Search for view Box ID
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            updateDataGridViews(false);
+            updateDataGridViews(true);
         }
 
         //Draw Barcode into pnlBarcode
         private void pnlBarcode_Paint(object sender, PaintEventArgs e)
         {
-            DotNetBarcode barCode = new DotNetBarcode(DotNetBarcode.Types.Jan13);
-            Single x1, x2, y1, y2;
-            string barCodeNo = txtBoxIDFrom.Text;
-            x1 = 0;
-            y1 = 0;
-            x2 = pnlBarcode.Size.Width;
-            y2 = pnlBarcode.Size.Height;
-            if (!string.IsNullOrEmpty(barCodeNo))
-                barCode.WriteBar(barCodeNo, x1, y1, x2, y2, e.Graphics);
+            BarCode barCode = new BarCode();
+            barCode.SymbologyType = SymbologyType.Code128;
+            barCode.CodeText = txtBoxIDFrom.Text;
+            barCode.BarCodeWidth = pnlBarcode.Width;
+            barCode.BarCodeHeight = pnlBarcode.Height;
+            if (!string.IsNullOrEmpty(barCode.CodeText))
+                barCode.drawBarcode(e.Graphics);
+        }
+
+        private void txtBoxIDFrom_TextChanged(object sender, EventArgs e)
+        {
+            pnlBarcode.Refresh();
+        }
+
+        private void btnAddBoxId_Click(object sender, EventArgs e)
+        {
+            if (TfGeneral.checkOpenFormExists("AddBoxIDFrm"))
+            {
+                MessageBox.Show("Please close the Box Package form or finish edit current form.", "BoxID DB", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2);
+            }
+            else
+            {
+                AddBoxIDFrm packFrm = new AddBoxIDFrm();
+                packFrm.RefreshEvent += delegate (object sndr, EventArgs excp)
+                {
+                    updateDataGridViews(false);
+                    Focus();
+                };
+                packFrm.Show();
+            }
         }
 
         private void dgvBoxID_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -130,7 +156,7 @@ namespace BoxID2019
             int currentRow = e.RowIndex;
             if (dgvBoxID.Columns[e.ColumnIndex] == dgvButtons && currentRow >= 0)
             {
-                bool inUse = TfGeneral.checkOpenFormExists("");
+                bool inUse = TfGeneral.checkOpenFormExists("AddBoxIDFrm");
                 if (inUse)
                 {
                     MessageBox.Show("Please close the other opened window", "Notice");
