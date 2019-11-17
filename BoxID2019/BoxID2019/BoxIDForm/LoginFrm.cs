@@ -31,6 +31,14 @@ namespace BoxID2019
             cmbUser.Focus();
         }
 
+        private void LoginFrm_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
+
         private void cmbUser_SelectedIndexChanged(object sender, EventArgs e)
         {
             txtPassword.Focus();
@@ -40,13 +48,30 @@ namespace BoxID2019
         {
             command.Clear();
             command.Append("SELECT pass FROM s_user WHERE suser = '").Append(cmbUser.Text).Append("'");
-            if (SQL.sqlExecuteScalarString(command.ToString()) == txtPassword.Text)
+            string pass = SQL.sqlExecuteScalarString(command.ToString());
+            command.Clear();
+            command.Append("SELECT loginstatus FROM s_user WHERE suser = '").Append(cmbUser.Text).Append("'");
+            bool login = SQL.sqlExecuteScalarBool(command.ToString());
+            if (pass == txtPassword.Text)
             {
-                BoxIDMainFrm boxIDfrm = new BoxIDMainFrm();
-                CommonFrm.UserName = cmbUser.Text;
-                this.Hide();
-                boxIDfrm.ShowDialog();
-                this.Close();
+                if (login)
+                {
+                    DialogResult reply = MessageBox.Show("This user account is currently used by other user," + System.Environment.NewLine + "or the log out last time had a problem." + System.Environment.NewLine + "Do you log in with this account ?", "Notice", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+                    if (reply == DialogResult.No)
+                    {
+                        return;
+                    }
+                }
+                else
+                {
+                    LoginStatus(true);
+                    BoxIDMainFrm boxIDfrm = new BoxIDMainFrm();
+                    CommonFrm.UserName = cmbUser.Text;
+                    this.Hide();
+                    boxIDfrm.ShowDialog();
+                    LoginStatus(false);
+                    this.Close();
+                }
             }
             else
                 MessageBox.Show("Wrong password!!!", "Warring");
@@ -54,22 +79,12 @@ namespace BoxID2019
             txtPassword.Focus();
         }
 
-        private void LoginFrm_FormClosing(object sender, FormClosingEventArgs e)
+        private bool LoginStatus(bool state)
         {
-            if (MessageBox.Show("Do you want to exit?", "Warring", MessageBoxButtons.YesNo) == DialogResult.No)
-            {
-                e.Cancel = true;
-                this.Show();
-            }
+            command.Clear();
+            command.Append("UPDATE s_user SET loginstatus=").Append(state);
+            command.Append("WHERE suser='").Append(cmbUser.Text).Append("'");
+            return SQL.sqlExecuteNonQuery(command.ToString(), false);
         }
-
-        private void LoginFrm_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Escape)
-            {
-                this.Close();
-            }
-        }
-
     }
 }

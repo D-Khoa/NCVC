@@ -39,8 +39,6 @@
             this.dtpShipDate = new System.Windows.Forms.DateTimePicker();
             this.btnSearch = new System.Windows.Forms.Button();
             this.dgvBoxID = new System.Windows.Forms.DataGridView();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtBoxIDTo = new System.Windows.Forms.TextBox();
             this.lbUsername = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -49,16 +47,17 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.cmbModel = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.tsRowsCount = new System.Windows.Forms.ToolStripStatusLabel();
-            this.tsProcess = new System.Windows.Forms.ToolStripStatusLabel();
-            this.tsTimer = new System.Windows.Forms.ToolStripStatusLabel();
             this.btnAddBoxId = new System.Windows.Forms.Button();
             this.pnlBarcode = new System.Windows.Forms.Panel();
+            this.btnExport = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.pnlInvoice = new System.Windows.Forms.Panel();
+            this.btnUpInvoice = new System.Windows.Forms.Button();
+            this.btnEditShipping = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBoxID)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.statusStrip1.SuspendLayout();
+            this.pnlInvoice.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtBoxIDFrom
@@ -147,30 +146,14 @@
             this.dgvBoxID.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvBoxID.Location = new System.Drawing.Point(12, 286);
             this.dgvBoxID.Name = "dgvBoxID";
-            this.dgvBoxID.Size = new System.Drawing.Size(517, 103);
+            this.dgvBoxID.Size = new System.Drawing.Size(517, 126);
             this.dgvBoxID.TabIndex = 12;
             this.dgvBoxID.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvBoxID_CellContentClick);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 13);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 13);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "Box ID To";
-            // 
-            // txtBoxIDTo
-            // 
-            this.txtBoxIDTo.Location = new System.Drawing.Point(64, 10);
-            this.txtBoxIDTo.Name = "txtBoxIDTo";
-            this.txtBoxIDTo.Size = new System.Drawing.Size(129, 20);
-            this.txtBoxIDTo.TabIndex = 13;
             // 
             // lbUsername
             // 
             this.lbUsername.AutoSize = true;
-            this.lbUsername.Location = new System.Drawing.Point(70, 72);
+            this.lbUsername.Location = new System.Drawing.Point(70, 10);
             this.lbUsername.Name = "lbUsername";
             this.lbUsername.Size = new System.Drawing.Size(33, 13);
             this.lbUsername.TabIndex = 16;
@@ -179,7 +162,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 72);
+            this.label7.Location = new System.Drawing.Point(3, 10);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(61, 13);
             this.label7.TabIndex = 17;
@@ -229,13 +212,11 @@
             // 
             this.panel4.Controls.Add(this.cmbModel);
             this.panel4.Controls.Add(this.label1);
-            this.panel4.Controls.Add(this.txtBoxIDTo);
-            this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.label7);
             this.panel4.Controls.Add(this.lbUsername);
             this.panel4.Location = new System.Drawing.Point(325, 76);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(204, 99);
+            this.panel4.Size = new System.Drawing.Size(204, 72);
             this.panel4.TabIndex = 19;
             // 
             // cmbModel
@@ -256,36 +237,6 @@
             this.label1.TabIndex = 19;
             this.label1.Text = "Model :";
             // 
-            // statusStrip1
-            // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsRowsCount,
-            this.tsProcess,
-            this.tsTimer});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 392);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(539, 22);
-            this.statusStrip1.TabIndex = 20;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // tsRowsCount
-            // 
-            this.tsRowsCount.Name = "tsRowsCount";
-            this.tsRowsCount.Size = new System.Drawing.Size(36, 17);
-            this.tsRowsCount.Text = "None";
-            // 
-            // tsProcess
-            // 
-            this.tsProcess.Name = "tsProcess";
-            this.tsProcess.Size = new System.Drawing.Size(467, 17);
-            this.tsProcess.Spring = true;
-            // 
-            // tsTimer
-            // 
-            this.tsTimer.Name = "tsTimer";
-            this.tsTimer.Size = new System.Drawing.Size(21, 17);
-            this.tsTimer.Text = "0 s";
-            // 
             // btnAddBoxId
             // 
             this.btnAddBoxId.Location = new System.Drawing.Point(93, 257);
@@ -299,20 +250,70 @@
             // pnlBarcode
             // 
             this.pnlBarcode.BackColor = System.Drawing.Color.White;
-            this.pnlBarcode.Location = new System.Drawing.Point(325, 181);
+            this.pnlBarcode.Location = new System.Drawing.Point(325, 154);
             this.pnlBarcode.Name = "pnlBarcode";
-            this.pnlBarcode.Size = new System.Drawing.Size(204, 70);
+            this.pnlBarcode.Size = new System.Drawing.Size(204, 52);
             this.pnlBarcode.TabIndex = 22;
             this.pnlBarcode.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBarcode_Paint);
+            // 
+            // btnExport
+            // 
+            this.btnExport.Location = new System.Drawing.Point(174, 257);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(75, 23);
+            this.btnExport.TabIndex = 23;
+            this.btnExport.Text = "Export Excel";
+            this.btnExport.UseVisualStyleBackColor = true;
+            // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(255, 257);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.TabIndex = 24;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            // 
+            // pnlInvoice
+            // 
+            this.pnlInvoice.Controls.Add(this.btnEditShipping);
+            this.pnlInvoice.Controls.Add(this.btnUpInvoice);
+            this.pnlInvoice.Location = new System.Drawing.Point(325, 213);
+            this.pnlInvoice.Name = "pnlInvoice";
+            this.pnlInvoice.Size = new System.Drawing.Size(204, 38);
+            this.pnlInvoice.TabIndex = 25;
+            this.pnlInvoice.Visible = false;
+            // 
+            // btnUpInvoice
+            // 
+            this.btnUpInvoice.Location = new System.Drawing.Point(6, 7);
+            this.btnUpInvoice.Name = "btnUpInvoice";
+            this.btnUpInvoice.Size = new System.Drawing.Size(89, 23);
+            this.btnUpInvoice.TabIndex = 0;
+            this.btnUpInvoice.Text = "Update Invoice";
+            this.btnUpInvoice.UseVisualStyleBackColor = true;
+            this.btnUpInvoice.Click += new System.EventHandler(this.btnUpInvoice_Click);
+            // 
+            // btnEditShipping
+            // 
+            this.btnEditShipping.Location = new System.Drawing.Point(104, 7);
+            this.btnEditShipping.Name = "btnEditShipping";
+            this.btnEditShipping.Size = new System.Drawing.Size(89, 23);
+            this.btnEditShipping.TabIndex = 1;
+            this.btnEditShipping.Text = "Edit Shipping";
+            this.btnEditShipping.UseVisualStyleBackColor = true;
+            this.btnEditShipping.Click += new System.EventHandler(this.btnEditShipping_Click);
             // 
             // BoxIDMainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(539, 414);
+            this.ClientSize = new System.Drawing.Size(538, 414);
+            this.Controls.Add(this.pnlInvoice);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnExport);
             this.Controls.Add(this.pnlBarcode);
             this.Controls.Add(this.btnAddBoxId);
-            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.dgvBoxID);
@@ -322,23 +323,24 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BoxID Main";
             this.Title_Name = "Box ID System";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BoxIDMainFrm_FormClosing);
             this.Load += new System.EventHandler(this.BoxIDMainFrm_Load);
             this.Controls.SetChildIndex(this.btnSearch, 0);
             this.Controls.SetChildIndex(this.dgvBoxID, 0);
             this.Controls.SetChildIndex(this.panel3, 0);
             this.Controls.SetChildIndex(this.panel4, 0);
-            this.Controls.SetChildIndex(this.statusStrip1, 0);
             this.Controls.SetChildIndex(this.btnAddBoxId, 0);
             this.Controls.SetChildIndex(this.pnlBarcode, 0);
+            this.Controls.SetChildIndex(this.btnExport, 0);
+            this.Controls.SetChildIndex(this.btnClose, 0);
+            this.Controls.SetChildIndex(this.pnlInvoice, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dgvBoxID)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
+            this.pnlInvoice.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -354,22 +356,21 @@
         private System.Windows.Forms.DateTimePicker dtpShipDate;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.DataGridView dgvBoxID;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtBoxIDTo;
         private System.Windows.Forms.Label lbUsername;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.RadioButton rdbProductSerial;
         private System.Windows.Forms.RadioButton rdbBoxIDFrom;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripStatusLabel tsRowsCount;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAddBoxId;
         private System.Windows.Forms.Panel pnlBarcode;
-        private System.Windows.Forms.ToolStripStatusLabel tsProcess;
-        private System.Windows.Forms.ToolStripStatusLabel tsTimer;
         private System.Windows.Forms.ComboBox cmbModel;
+        private System.Windows.Forms.Button btnExport;
+        private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Panel pnlInvoice;
+        private System.Windows.Forms.Button btnEditShipping;
+        private System.Windows.Forms.Button btnUpInvoice;
     }
 }
 

@@ -100,7 +100,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BoxID 2019";
             this.Title_Name = "Log In";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LoginFrm_FormClosing);
             this.Load += new System.EventHandler(this.LoginFrm_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LoginFrm_KeyDown);
             this.Controls.SetChildIndex(this.cmbUser, 0);

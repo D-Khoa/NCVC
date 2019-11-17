@@ -37,3 +37,4 @@ D:\GIT\DangKhoa\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.TestFrm.resources
 D:\GIT\DangKhoa\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.csproj.GenerateResource.Cache
 D:\GIT\DangKhoa\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.exe
 D:\GIT\DangKhoa\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.pdb
+D:\Nidec_GitHub\NCVC\BoxID2019\BoxID2019\obj\Debug\BoxID2019.AddBoxIDFrm.resources

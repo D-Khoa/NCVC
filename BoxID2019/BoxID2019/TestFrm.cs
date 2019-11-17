@@ -12,9 +12,33 @@ namespace BoxID2019
 {
     public partial class TestFrm : Form
     {
+        DataGridViewCheckBoxColumn checkcol;
+        DataGridViewCheckBoxCell checkcell;
         public TestFrm()
         {
             InitializeComponent();
+            addCheckbox();
+        }
+
+        private void addCheckbox()
+        {
+            checkcol = new DataGridViewCheckBoxColumn();
+            {
+                checkcol.HeaderText = "Check";
+                checkcol.Name = "chck";
+                checkcol.TrueValue = true;
+                checkcol.FalseValue = false;
+                checkcol.FlatStyle = FlatStyle.Standard;
+                checkcol.CellTemplate = new DataGridViewCheckBoxCell();
+                //checkcol.CellTemplate.ValueType = typeof(bool);
+            }
+            dataGridView1.Rows.Add("1", "12", "123", "145");
+            dataGridView1.Columns.Add(checkcol);
+            ////checkcell = new DataGridViewCheckBoxCell();
+            //foreach(DataGridViewRow r in dataGridView1.Rows)
+            //{
+            //    checkcell = (DataGridViewCheckBoxCell)r.Cells["chk"];
+            //}
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -33,6 +57,32 @@ namespace BoxID2019
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             panel1.Refresh();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dataGridView1.CurrentRow.Cells["chck"].Value != null && (bool)dataGridView1.CurrentRow.Cells["chck"].Value)
+            {
+                dataGridView1.CurrentRow.Cells["chck"].Value = null;
+            }
+            else if (dataGridView1.CurrentRow.Cells["chck"].Value == null)
+            {
+                dataGridView1.CurrentRow.Cells["chck"].Value = true;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           foreach(DataGridViewRow r in dataGridView1.Rows)
+            {
+                if(r.Cells["chck"].Value != null && (bool)r.Cells["chck"].Value)
+                {
+                    r.Cells[0].Value = "111111";
+                }
+                else
+                    r.Cells[0].Value = "2222";
+
+            }
         }
     }
 }
