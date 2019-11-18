@@ -1,6 +1,6 @@
 namespace BoxIdDb
 {
-    partial class frmModule523
+    partial class frmModule
     {
         /// <summary>
         /// Required designer variable.

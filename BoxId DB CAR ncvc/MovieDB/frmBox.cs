@@ -244,15 +244,15 @@ namespace BoxIdDb
                 }
                 else if(dgvBoxId.CurrentRow.Cells["col_boxid"].Value.ToString().Contains("523"))
                 {
-                    frmModule523 f3 = new frmModule523();
-                    //子イベントをキャッチして、データグリッドを更新する
-                    f3.RefreshEvent += delegate (object sndr, EventArgs excp)
-                    {
-                        updateDataGridViews(ref dgvBoxId, false);
-                        Focus();
-                    };
-                    f3.updateControls(frmName, boxId, printDate, serialNo, invoice, user, false, false);
-                    f3.Show();
+                    //frmModule523 f3 = new frmModule523();
+                    ////子イベントをキャッチして、データグリッドを更新する
+                    //f3.RefreshEvent += delegate (object sndr, EventArgs excp)
+                    //{
+                    //    updateDataGridViews(ref dgvBoxId, false);
+                    //    Focus();
+                    //};
+                    //f3.updateControls(frmName, boxId, printDate, serialNo, invoice, user, false, false);
+                    //f3.Show();
                 }
                 else
                 {
@@ -551,16 +551,16 @@ namespace BoxIdDb
             }
             else
             {
-                frmModule523 f3 = new frmModule523();
-                //子イベントをキャッチして、データグリッドを更新する
-                f3.RefreshEvent += delegate (object sndr, EventArgs excp)
-                {
-                    updateDataGridViews(ref dgvBoxId, false);
-                    Focus();
-                };
+                //frmModule523 f3 = new frmModule523();
+                ////子イベントをキャッチして、データグリッドを更新する
+                //f3.RefreshEvent += delegate (object sndr, EventArgs excp)
+                //{
+                //    updateDataGridViews(ref dgvBoxId, false);
+                //    Focus();
+                //};
 
-                f3.updateControls(String.Empty, String.Empty, DateTime.Now, String.Empty, String.Empty, user, true, false);
-                f3.Show();
+                //f3.updateControls(String.Empty, String.Empty, DateTime.Now, String.Empty, String.Empty, user, true, false);
+                //f3.Show();
             }
         }
     }

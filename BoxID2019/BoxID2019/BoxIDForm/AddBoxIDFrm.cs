@@ -30,9 +30,9 @@ namespace BoxID2019
             SQL2 = new TfSQL("pqmdb");
             command = new StringBuilder();
             if (editMode)
-                this.Text += "Edit Mode";
+                this.Text += "[Edit Mode]";
             else
-                this.Text += "View Mode";
+                this.Text += "[View Mode]";
         }
 
         private void AddBoxIDFrm_Load(object sender, EventArgs e)

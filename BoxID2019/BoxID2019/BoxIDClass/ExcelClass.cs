@@ -4,6 +4,7 @@ using System.Linq;
 using System.Data;
 using System.Collections.Generic;
 using cExcel = Microsoft.Office.Interop.Excel;
+using System.Windows.Forms;
 
 namespace BoxID2019
 {
@@ -103,6 +104,18 @@ namespace BoxID2019
             wb.SaveAs(filename, cExcel.XlFileFormat.xlWorkbookDefault, Type.Missing, Type.Missing, false, false, cExcel.XlSaveAsAccessMode.xlNoChange, cExcel.XlSaveConflictResolution.xlLocalSessionChanges, Type.Missing, Type.Missing);
             wb.Close();
             app.Quit();
+        }
+
+        public void DatagridviewToDatatable(DataGridView dgv, ref DataTable dt)
+        {
+            foreach(DataGridViewColumn dc in dgv.Columns)
+            {
+                dt.Columns.Add(dc.HeaderText);
+            }
+            foreach(DataGridViewRow dr in dgv.Rows)
+            {
+                dt.Rows.Add(dr);
+            }
         }
     }
 }

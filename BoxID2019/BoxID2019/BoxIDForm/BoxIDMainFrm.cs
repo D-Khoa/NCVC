@@ -20,6 +20,7 @@ namespace BoxID2019
         CheckBox ckbShipDate;
         StringBuilder command;
         DataGridViewButtonColumn dgvButtons;
+        string productTable;
 
         public BoxIDMainFrm()
         {
@@ -36,7 +37,7 @@ namespace BoxID2019
             command.Append("SELECT model FROM tbl_model_dbplace ORDER BY model");
             SQL2.getComboBoxData(command.ToString(), ref cmbModel);
             lbUsername.Text = UserName;
-            if(UserRole == "admin")
+            if (UserRole == "admin")
             {
                 pnlAdmin.Visible = true;
             }
@@ -53,14 +54,16 @@ namespace BoxID2019
 
         private string getProductSerialTable()
         {
-            if (checkProductSerialTable("product_serial_rt"))
-                return "product_serial_rt";
-            else if (checkProductSerialTable("product_serial_rtcd"))
+            string[] s = Model.Split('_');
+            productTable = "product_serial_rt" + s[1];
+            if (checkProductSerialTable("product_serial_rtcd"))
                 return "product_serial_rtcd";
             else if (checkProductSerialTable("product_serial_517eb"))
                 return "product_serial_517eb";
+            else if (checkProductSerialTable("product_serial_rt"))
+                return "product_serial_rt";
             else
-                return "product_serial_" + cmbModel.Text;
+                return productTable;
         }
 
         private void getDataIntoDatatable(ref DataTable table)
@@ -76,15 +79,23 @@ namespace BoxID2019
             }
             else if (rdbProductSerial.Checked)
             {
-                if (!string.IsNullOrEmpty(txtProductSerial.Text))
+                if (!string.IsNullOrEmpty(cmbModel.Text))
                 {
-                    command.Append("left join ").Append(getProductSerialTable()).Append(" b ");
-                    command.Append("on a.boxid = b.boxid ");
-                    command.Append("where b.serialno ='");
-                    command.Append(txtProductSerial.Text).Append("' ");
+                    if (!string.IsNullOrEmpty(txtProductSerial.Text))
+                    {
+                        command.Append("left join ").Append(getProductSerialTable()).Append(" b ");
+                        command.Append("on a.boxid = b.boxid ");
+                        command.Append("where b.serialno ='");
+                        command.Append(txtProductSerial.Text).Append("' ");
+                    }
+                    else
+                        command.Append("where 1 = 1 ");
                 }
                 else
-                    command.Append("where 1 = 1 ");
+                {
+                    MessageBox.Show("Please choose model!", "Warring", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    cmbModel.Focus();
+                }
             }
             if (dtpRegDate.Checked)
                 command.Append("and a.regist_date between '").Append(dtpRegDate.Value).Append("' and '").Append(dtpRegDate.Value.AddDays(1)).Append("' ");
@@ -175,23 +186,6 @@ namespace BoxID2019
             updateDataGridViews(true);
         }
 
-        private void txtBoxIDFrom_TextChanged(object sender, EventArgs e)
-        {
-            pnlBarcode.Refresh();
-        }
-
-        //Draw Barcode into pnlBarcode
-        private void pnlBarcode_Paint(object sender, PaintEventArgs e)
-        {
-            BarCode barCode = new BarCode();
-            barCode.SymbologyType = SymbologyType.Code128;
-            barCode.CodeText = txtBoxIDFrom.Text;
-            barCode.BarCodeWidth = pnlBarcode.Width;
-            barCode.BarCodeHeight = pnlBarcode.Height;
-            if (!string.IsNullOrEmpty(barCode.CodeText))
-                barCode.drawBarcode(e.Graphics);
-        }
-
         private void btnAddBoxId_Click(object sender, EventArgs e)
         {
             if (TfGeneral.checkOpenFormExists("AddBoxIDFrm"))
@@ -224,7 +218,6 @@ namespace BoxID2019
                 string serialNo = txtProductSerial.Text;
                 string boxID = dgvBoxID["boxid", currentRow].Value.ToString();
                 string inVoice = dgvBoxID["invoice", currentRow].Value.ToString();
-                //DateTime printDate = DateTime.Parse(dgvBoxID["regist_date", currentRow].Value.ToString());
                 AddBoxIDFrm viewFrm = new AddBoxIDFrm(false);
                 viewFrm.UpdateControl(boxID, serialNo, inVoice);
             }
@@ -264,6 +257,24 @@ namespace BoxID2019
             updateDataGridViews(false);
         }
 
+        private void btnExport_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog sf = new SaveFileDialog();
+            sf.Filter = @"Excel documents (*.xlsx)|*.xlsx|
+                          Excel 97-2003 documents (*.xls)|*.xls|
+                          All file (*.*)|*.*";
+            if (sf.ShowDialog() == DialogResult.OK)
+            {
+                ExcelClass excel = new ExcelClass(sf.FileName);
+                DataTable dt = new DataTable();
+                excel.DatagridviewToDatatable(dgvBoxID, ref dt);
+                excel.CreateWorkBook();
+                excel.AddDatatable(dt);
+                excel.SaveAndExit();
+                MessageBox.Show("Export to Excel completed!", "Excel Class", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -272,6 +283,23 @@ namespace BoxID2019
         private void cmbModel_SelectedIndexChanged(object sender, EventArgs e)
         {
             Model = cmbModel.Text;
+        }
+
+        private void txtBoxIDFrom_TextChanged(object sender, EventArgs e)
+        {
+            pnlBarcode.Refresh();
+        }
+
+        //Draw Barcode into pnlBarcode
+        private void pnlBarcode_Paint(object sender, PaintEventArgs e)
+        {
+            BarCode barCode = new BarCode();
+            barCode.SymbologyType = SymbologyType.Code128;
+            barCode.CodeText = txtBoxIDFrom.Text;
+            barCode.BarCodeWidth = pnlBarcode.Width;
+            barCode.BarCodeHeight = pnlBarcode.Height;
+            if (!string.IsNullOrEmpty(barCode.CodeText))
+                barCode.drawBarcode(e.Graphics);
         }
 
         private void BoxIDMainFrm_FormClosing(object sender, FormClosingEventArgs e)
