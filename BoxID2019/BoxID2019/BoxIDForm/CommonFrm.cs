@@ -19,6 +19,7 @@ namespace BoxID2019
         }
 
         public static string UserName { get; set; }
+        public static string UserRole { get; set; }
         public static string Model { get; set; }
         public CommonFrm()
         {

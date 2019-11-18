@@ -65,6 +65,7 @@ namespace BoxIdDb
             this.label6 = new System.Windows.Forms.Label();
             this.txtInvoice = new System.Windows.Forms.TextBox();
             this.btnAdd517 = new System.Windows.Forms.Button();
+            this.btnAddBoxID523 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBoxId)).BeginInit();
             this.pnlInvoice.SuspendLayout();
             this.SuspendLayout();
@@ -389,12 +390,23 @@ namespace BoxIdDb
             this.btnAdd517.UseVisualStyleBackColor = true;
             this.btnAdd517.Click += new System.EventHandler(this.btnAdd517_Click);
             // 
+            // btnAddBoxID523
+            // 
+            this.btnAddBoxID523.Location = new System.Drawing.Point(269, 240);
+            this.btnAddBoxID523.Name = "btnAddBoxID523";
+            this.btnAddBoxID523.Size = new System.Drawing.Size(101, 23);
+            this.btnAddBoxID523.TabIndex = 50;
+            this.btnAddBoxID523.Text = "Add Box ID 523";
+            this.btnAddBoxID523.UseVisualStyleBackColor = true;
+            this.btnAddBoxID523.Click += new System.EventHandler(this.btnAddBoxID523_Click);
+            // 
             // frmBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(698, 730);
+            this.Controls.Add(this.btnAddBoxID523);
             this.Controls.Add(this.txtBoxIdTo);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.rdbShipDate);
@@ -474,6 +486,7 @@ namespace BoxIdDb
         private System.Windows.Forms.DataGridViewTextBoxColumn col_ship_date;
         private System.Windows.Forms.DataGridViewTextBoxColumn col_invoice;
         private System.Windows.Forms.Button btnAdd517;
+        private System.Windows.Forms.Button btnAddBoxID523;
     }
 }
 
