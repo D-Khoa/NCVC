@@ -62,16 +62,15 @@ namespace BoxID2019
                         return;
                     }
                 }
-                else
-                {
-                    LoginStatus(true);
-                    BoxIDMainFrm boxIDfrm = new BoxIDMainFrm();
-                    CommonFrm.UserName = cmbUser.Text;
-                    this.Hide();
-                    boxIDfrm.ShowDialog();
-                    LoginStatus(false);
-                    this.Close();
-                }
+                LoginStatus(true);
+                BoxIDMainFrm boxIDfrm = new BoxIDMainFrm();
+                CommonFrm.UserName = cmbUser.Text;
+                CommonFrm.UserRole = CheckRole();
+                this.Hide();
+                boxIDfrm.ShowDialog();
+                LoginStatus(false);
+                this.Show();
+                this.Invalidate();
             }
             else
                 MessageBox.Show("Wrong password!!!", "Warring");
@@ -83,8 +82,15 @@ namespace BoxID2019
         {
             command.Clear();
             command.Append("UPDATE s_user SET loginstatus=").Append(state);
-            command.Append("WHERE suser='").Append(cmbUser.Text).Append("'");
+            command.Append(" WHERE suser='").Append(cmbUser.Text).Append("'");
             return SQL.sqlExecuteNonQuery(command.ToString(), false);
+        }
+
+        private string CheckRole()
+        {
+            command.Clear();
+            command.Append("SELECT user_role FROM s_user WHERE suser = '").Append(cmbUser.Text).Append("'");
+            return SQL.sqlExecuteScalarString(command.ToString());
         }
     }
 }

@@ -53,14 +53,14 @@
             this.btnExport = new System.Windows.Forms.Button();
             this.btnDelProduct = new System.Windows.Forms.Button();
             this.btnDelBoxID = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.grAdmin = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.dgvBoxPackage = new System.Windows.Forms.DataGridView();
             this.btnClose = new System.Windows.Forms.Button();
+            this.dgvBoxPackage = new System.Windows.Forms.DataGridView();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.grAdmin.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBoxPackage)).BeginInit();
             this.SuspendLayout();
@@ -226,7 +226,7 @@
             this.cmbModel.Name = "cmbModel";
             this.cmbModel.Size = new System.Drawing.Size(173, 21);
             this.cmbModel.TabIndex = 2;
-            this.cmbModel.SelectedIndexChanged += new System.EventHandler(this.cmbModel_SelectedIndexChanged);
+            this.cmbModel.TextChanged += new System.EventHandler(this.cmbModel_TextChanged);
             // 
             // txtBoxID
             // 
@@ -274,10 +274,11 @@
             this.btnRegBoxID.TabIndex = 0;
             this.btnRegBoxID.Text = "Register Box ID";
             this.btnRegBoxID.UseVisualStyleBackColor = true;
+            this.btnRegBoxID.Click += new System.EventHandler(this.btnRegBoxID_Click);
             // 
             // btnReprint
             // 
-            this.btnReprint.Location = new System.Drawing.Point(87, 9);
+            this.btnReprint.Location = new System.Drawing.Point(6, 10);
             this.btnReprint.Name = "btnReprint";
             this.btnReprint.Size = new System.Drawing.Size(75, 23);
             this.btnReprint.TabIndex = 1;
@@ -287,7 +288,7 @@
             // 
             // btnExport
             // 
-            this.btnExport.Location = new System.Drawing.Point(6, 9);
+            this.btnExport.Location = new System.Drawing.Point(87, 10);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(75, 23);
             this.btnExport.TabIndex = 3;
@@ -302,7 +303,6 @@
             this.btnDelProduct.TabIndex = 4;
             this.btnDelProduct.Text = "Delete Product";
             this.btnDelProduct.UseVisualStyleBackColor = true;
-            this.btnDelProduct.Visible = false;
             // 
             // btnDelBoxID
             // 
@@ -312,17 +312,18 @@
             this.btnDelBoxID.TabIndex = 5;
             this.btnDelBoxID.Text = "Delete Box ID";
             this.btnDelBoxID.UseVisualStyleBackColor = true;
-            this.btnDelBoxID.Visible = false;
             // 
-            // groupBox3
+            // grAdmin
             // 
-            this.groupBox3.Controls.Add(this.btnDelProduct);
-            this.groupBox3.Controls.Add(this.btnDelBoxID);
-            this.groupBox3.Location = new System.Drawing.Point(461, 193);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(203, 39);
-            this.groupBox3.TabIndex = 6;
-            this.groupBox3.TabStop = false;
+            this.grAdmin.BackColor = System.Drawing.Color.Yellow;
+            this.grAdmin.Controls.Add(this.btnDelProduct);
+            this.grAdmin.Controls.Add(this.btnDelBoxID);
+            this.grAdmin.Location = new System.Drawing.Point(461, 193);
+            this.grAdmin.Name = "grAdmin";
+            this.grAdmin.Size = new System.Drawing.Size(203, 39);
+            this.grAdmin.TabIndex = 6;
+            this.grAdmin.TabStop = false;
+            this.grAdmin.Visible = false;
             // 
             // groupBox4
             // 
@@ -335,14 +336,6 @@
             this.groupBox4.TabIndex = 7;
             this.groupBox4.TabStop = false;
             // 
-            // dgvBoxPackage
-            // 
-            this.dgvBoxPackage.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBoxPackage.Location = new System.Drawing.Point(6, 238);
-            this.dgvBoxPackage.Name = "dgvBoxPackage";
-            this.dgvBoxPackage.Size = new System.Drawing.Size(658, 209);
-            this.dgvBoxPackage.TabIndex = 8;
-            // 
             // btnClose
             // 
             this.btnClose.Location = new System.Drawing.Point(168, 9);
@@ -352,6 +345,14 @@
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
             // 
+            // dgvBoxPackage
+            // 
+            this.dgvBoxPackage.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBoxPackage.Location = new System.Drawing.Point(6, 238);
+            this.dgvBoxPackage.Name = "dgvBoxPackage";
+            this.dgvBoxPackage.Size = new System.Drawing.Size(658, 209);
+            this.dgvBoxPackage.TabIndex = 8;
+            // 
             // AddBoxIDFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -359,7 +360,7 @@
             this.ClientSize = new System.Drawing.Size(673, 459);
             this.Controls.Add(this.dgvBoxPackage);
             this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.grAdmin);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.panel3);
             this.Name = "AddBoxIDFrm";
@@ -368,14 +369,14 @@
             this.Load += new System.EventHandler(this.AddBoxIDFrm_Load);
             this.Controls.SetChildIndex(this.panel3, 0);
             this.Controls.SetChildIndex(this.groupBox2, 0);
-            this.Controls.SetChildIndex(this.groupBox3, 0);
+            this.Controls.SetChildIndex(this.grAdmin, 0);
             this.Controls.SetChildIndex(this.groupBox4, 0);
             this.Controls.SetChildIndex(this.dgvBoxPackage, 0);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
+            this.grAdmin.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvBoxPackage)).EndInit();
             this.ResumeLayout(false);
@@ -408,7 +409,7 @@
         private System.Windows.Forms.Button btnRegBoxID;
         private System.Windows.Forms.Button btnDelProduct;
         private System.Windows.Forms.Button btnDelBoxID;
-        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox grAdmin;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.DataGridView dgvBoxPackage;
         private System.Windows.Forms.Label label7;

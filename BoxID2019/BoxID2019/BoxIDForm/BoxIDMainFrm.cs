@@ -36,6 +36,10 @@ namespace BoxID2019
             command.Append("SELECT model FROM tbl_model_dbplace ORDER BY model");
             SQL2.getComboBoxData(command.ToString(), ref cmbModel);
             lbUsername.Text = UserName;
+            if(UserRole == "admin")
+            {
+                pnlAdmin.Visible = true;
+            }
         }
 
         #region SETTING AND OPTIONS DATAGRIDVIEW
@@ -258,6 +262,16 @@ namespace BoxID2019
             }
             MessageBox.Show("Updated Ship Date!", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Information);
             updateDataGridViews(false);
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void cmbModel_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Model = cmbModel.Text;
         }
 
         private void BoxIDMainFrm_FormClosing(object sender, FormClosingEventArgs e)
