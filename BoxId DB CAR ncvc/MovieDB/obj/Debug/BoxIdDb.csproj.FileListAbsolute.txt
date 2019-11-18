@@ -377,6 +377,7 @@ D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\bin\Debug\BoxIdDB.exe
 D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\bin\Debug\BoxIdDB.pdb
 D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\bin\Debug\MathNet.Numerics.dll
 D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\bin\Debug\MathNet.Numerics.xml
+D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache
 D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDb.frmCapacity.resources
 D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDb.frmLogin.resources
 D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDb.frmModule517EB.resources
@@ -407,5 +408,3 @@ D:\Nidec_GitHub\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.Generate
 D:\Nidec_GitHub\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDB.TrustInfo.xml
 D:\Nidec_GitHub\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDB.exe.manifest
 D:\Nidec_GitHub\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDB.application
-D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDb.frmModule523.resources
-D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDb.csprojResolveAssemblyReference.cache

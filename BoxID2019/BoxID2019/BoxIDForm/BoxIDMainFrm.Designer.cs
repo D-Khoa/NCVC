@@ -51,14 +51,13 @@
             this.pnlBarcode = new System.Windows.Forms.Panel();
             this.btnExport = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.pnlAdmin = new System.Windows.Forms.Panel();
-            this.btnAddModel = new System.Windows.Forms.Button();
-            this.btnEditShipping = new System.Windows.Forms.Button();
+            this.pnlInvoice = new System.Windows.Forms.Panel();
             this.btnUpInvoice = new System.Windows.Forms.Button();
+            this.btnEditShipping = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBoxID)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.pnlAdmin.SuspendLayout();
+            this.pnlInvoice.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtBoxIDFrom
@@ -134,7 +133,7 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(12, 254);
+            this.btnSearch.Location = new System.Drawing.Point(12, 257);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
             this.btnSearch.TabIndex = 11;
@@ -183,7 +182,7 @@
             this.panel3.Controls.Add(this.dtpRegDate);
             this.panel3.Location = new System.Drawing.Point(0, 73);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(303, 166);
+            this.panel3.Size = new System.Drawing.Size(303, 178);
             this.panel3.TabIndex = 18;
             // 
             // rdbProductSerial
@@ -228,7 +227,6 @@
             this.cmbModel.Name = "cmbModel";
             this.cmbModel.Size = new System.Drawing.Size(129, 21);
             this.cmbModel.TabIndex = 20;
-            this.cmbModel.SelectedIndexChanged += new System.EventHandler(this.cmbModel_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -241,7 +239,7 @@
             // 
             // btnAddBoxId
             // 
-            this.btnAddBoxId.Location = new System.Drawing.Point(91, 254);
+            this.btnAddBoxId.Location = new System.Drawing.Point(93, 257);
             this.btnAddBoxId.Name = "btnAddBoxId";
             this.btnAddBoxId.Size = new System.Drawing.Size(75, 23);
             this.btnAddBoxId.TabIndex = 21;
@@ -260,7 +258,7 @@
             // 
             // btnExport
             // 
-            this.btnExport.Location = new System.Drawing.Point(170, 254);
+            this.btnExport.Location = new System.Drawing.Point(174, 257);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(75, 23);
             this.btnExport.TabIndex = 23;
@@ -269,48 +267,26 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(249, 254);
+            this.btnClose.Location = new System.Drawing.Point(255, 257);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
             this.btnClose.TabIndex = 24;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // pnlAdmin
+            // pnlInvoice
             // 
-            this.pnlAdmin.BackColor = System.Drawing.Color.Yellow;
-            this.pnlAdmin.Controls.Add(this.btnAddModel);
-            this.pnlAdmin.Controls.Add(this.btnEditShipping);
-            this.pnlAdmin.Controls.Add(this.btnUpInvoice);
-            this.pnlAdmin.Location = new System.Drawing.Point(328, 216);
-            this.pnlAdmin.Name = "pnlAdmin";
-            this.pnlAdmin.Size = new System.Drawing.Size(198, 64);
-            this.pnlAdmin.TabIndex = 25;
-            this.pnlAdmin.Visible = false;
-            // 
-            // btnAddModel
-            // 
-            this.btnAddModel.Location = new System.Drawing.Point(5, 9);
-            this.btnAddModel.Name = "btnAddModel";
-            this.btnAddModel.Size = new System.Drawing.Size(89, 23);
-            this.btnAddModel.TabIndex = 2;
-            this.btnAddModel.Text = "Add Model";
-            this.btnAddModel.UseVisualStyleBackColor = true;
-            // 
-            // btnEditShipping
-            // 
-            this.btnEditShipping.Location = new System.Drawing.Point(100, 38);
-            this.btnEditShipping.Name = "btnEditShipping";
-            this.btnEditShipping.Size = new System.Drawing.Size(89, 23);
-            this.btnEditShipping.TabIndex = 1;
-            this.btnEditShipping.Text = "Edit Shipping";
-            this.btnEditShipping.UseVisualStyleBackColor = true;
-            this.btnEditShipping.Click += new System.EventHandler(this.btnEditShipping_Click);
+            this.pnlInvoice.Controls.Add(this.btnEditShipping);
+            this.pnlInvoice.Controls.Add(this.btnUpInvoice);
+            this.pnlInvoice.Location = new System.Drawing.Point(325, 213);
+            this.pnlInvoice.Name = "pnlInvoice";
+            this.pnlInvoice.Size = new System.Drawing.Size(204, 38);
+            this.pnlInvoice.TabIndex = 25;
+            this.pnlInvoice.Visible = false;
             // 
             // btnUpInvoice
             // 
-            this.btnUpInvoice.Location = new System.Drawing.Point(5, 38);
+            this.btnUpInvoice.Location = new System.Drawing.Point(6, 7);
             this.btnUpInvoice.Name = "btnUpInvoice";
             this.btnUpInvoice.Size = new System.Drawing.Size(89, 23);
             this.btnUpInvoice.TabIndex = 0;
@@ -318,12 +294,22 @@
             this.btnUpInvoice.UseVisualStyleBackColor = true;
             this.btnUpInvoice.Click += new System.EventHandler(this.btnUpInvoice_Click);
             // 
+            // btnEditShipping
+            // 
+            this.btnEditShipping.Location = new System.Drawing.Point(104, 7);
+            this.btnEditShipping.Name = "btnEditShipping";
+            this.btnEditShipping.Size = new System.Drawing.Size(89, 23);
+            this.btnEditShipping.TabIndex = 1;
+            this.btnEditShipping.Text = "Edit Shipping";
+            this.btnEditShipping.UseVisualStyleBackColor = true;
+            this.btnEditShipping.Click += new System.EventHandler(this.btnEditShipping_Click);
+            // 
             // BoxIDMainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(539, 414);
-            this.Controls.Add(this.pnlAdmin);
+            this.ClientSize = new System.Drawing.Size(538, 414);
+            this.Controls.Add(this.pnlInvoice);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.pnlBarcode);
@@ -347,13 +333,13 @@
             this.Controls.SetChildIndex(this.pnlBarcode, 0);
             this.Controls.SetChildIndex(this.btnExport, 0);
             this.Controls.SetChildIndex(this.btnClose, 0);
-            this.Controls.SetChildIndex(this.pnlAdmin, 0);
+            this.Controls.SetChildIndex(this.pnlInvoice, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dgvBoxID)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.pnlAdmin.ResumeLayout(false);
+            this.pnlInvoice.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -382,10 +368,9 @@
         private System.Windows.Forms.ComboBox cmbModel;
         private System.Windows.Forms.Button btnExport;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Panel pnlAdmin;
+        private System.Windows.Forms.Panel pnlInvoice;
         private System.Windows.Forms.Button btnEditShipping;
         private System.Windows.Forms.Button btnUpInvoice;
-        private System.Windows.Forms.Button btnAddModel;
     }
 }
 

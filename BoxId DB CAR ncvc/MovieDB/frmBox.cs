@@ -242,18 +242,6 @@ namespace BoxIdDb
                     f3.updateControls(frmName, boxId, printDate, serialNo, invoice, user, false, false);
                     f3.Show();
                 }
-                else if(dgvBoxId.CurrentRow.Cells["col_boxid"].Value.ToString().Contains("523"))
-                {
-                    frmModule523 f3 = new frmModule523();
-                    //子イベントをキャッチして、データグリッドを更新する
-                    f3.RefreshEvent += delegate (object sndr, EventArgs excp)
-                    {
-                        updateDataGridViews(ref dgvBoxId, false);
-                        Focus();
-                    };
-                    f3.updateControls(frmName, boxId, printDate, serialNo, invoice, user, false, false);
-                    f3.Show();
-                }
                 else
                 {
                     frmModule f3 = new frmModule();
@@ -527,31 +515,6 @@ namespace BoxIdDb
             else
             {
                 frmModule517EB f3 = new frmModule517EB();
-                //子イベントをキャッチして、データグリッドを更新する
-                f3.RefreshEvent += delegate (object sndr, EventArgs excp)
-                {
-                    updateDataGridViews(ref dgvBoxId, false);
-                    Focus();
-                };
-
-                f3.updateControls(String.Empty, String.Empty, DateTime.Now, String.Empty, String.Empty, user, true, false);
-                f3.Show();
-            }
-        }
-
-        private void btnAddBoxID523_Click(object sender, EventArgs e)
-        {
-            string user = txtUser.Text;
-
-            bool bl = TfGeneral.checkOpenFormExists("frmModule523");
-            if (bl)
-            {
-                MessageBox.Show("Please close brows-mode form or finish the current edit form.", "BoxId DB",
-                MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2);
-            }
-            else
-            {
-                frmModule523 f3 = new frmModule523();
                 //子イベントをキャッチして、データグリッドを更新する
                 f3.RefreshEvent += delegate (object sndr, EventArgs excp)
                 {

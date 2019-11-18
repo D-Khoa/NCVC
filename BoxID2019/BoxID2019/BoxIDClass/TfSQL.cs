@@ -13,7 +13,7 @@ namespace BoxID2019
 
         public TfSQL(string DBName)
         {
-            strConnection = @"Server=192.168.193.4;Port=5432;User Id=pqm;Password=dbuser;Database=" + DBName + "; CommandTimeout=100; Timeout=100;";
+            strConnection = @"Server=192.168.193.4;Port=5432;User Id=pqm;Password=dbuser;Database=" + DBName + "; CommandTimeout=10; Timeout=10;";
         }
         public void getComboBoxData(string sql, ref ComboBox cmb)
         {
