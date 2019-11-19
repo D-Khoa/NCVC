@@ -255,16 +255,8 @@ namespace BoxIdDb
             this.cmbModel.Enabled = false;
             this.cmbModel.FormattingEnabled = true;
             this.cmbModel.Items.AddRange(new object[] {
-            "LA20_517CB",
-            "LA20_517CC",
-            "LA20_517CC1",
-            "LA20_517CC2",
-            "LA20_517CC3",
-            "LA20_517CD",
-            "LA20_517DB",
-            "LA20_517DC",
-            "LA20_517DD",
-            "LA20_517EB"});
+            "LA20_523AB",
+            "LA20_523AC"});
             this.cmbModel.Location = new System.Drawing.Point(113, 58);
             this.cmbModel.Name = "cmbModel";
             this.cmbModel.Size = new System.Drawing.Size(188, 21);
@@ -331,8 +323,8 @@ namespace BoxIdDb
             // 
             this.dgvInline.AllowUserToAddRows = false;
             this.dgvInline.AllowUserToDeleteRows = false;
-            this.dgvInline.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.dgvInline.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvInline.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
             this.dgvInline.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
@@ -596,8 +588,8 @@ namespace BoxIdDb
             // 
             // tabControl1
             // 
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabInline);
             this.tabControl1.Location = new System.Drawing.Point(0, 252);
@@ -635,7 +627,7 @@ namespace BoxIdDb
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.btnPrint);
             this.groupBox1.Controls.Add(this.label5);

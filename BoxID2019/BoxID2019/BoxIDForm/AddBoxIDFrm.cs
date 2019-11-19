@@ -21,6 +21,7 @@ namespace BoxID2019
         string serial;
         string regdate;
         string modelTail;
+        string processThisMonthTbl, processLastMonthTbl, dataThisMonthTbl, dataLastMonthTbl;
 
         public AddBoxIDFrm(bool edit_Mode)
         {
@@ -109,9 +110,12 @@ namespace BoxID2019
             }
         }
 
-        private void DefineTableName()
+        private void DefineTableName(DateTime date)
         {
-
+            processThisMonthTbl = Model + date.ToString("yyyyMM");
+            dataThisMonthTbl = processThisMonthTbl + "data";
+            processLastMonthTbl = Model + date.AddMonths(-1).ToString("yyyyMM");
+            dataLastMonthTbl = processLastMonthTbl + "data";
         }
 
         private void btnRegBoxID_Click(object sender, EventArgs e)

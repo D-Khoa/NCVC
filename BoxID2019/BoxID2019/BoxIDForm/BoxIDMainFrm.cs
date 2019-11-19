@@ -71,7 +71,7 @@ namespace BoxID2019
             table.Clear();
             command.Clear();
             command.Append("Select a.boxid, a.suser, a.regist_date, a.shipdate, a.invoice from box_id_rt a ");
-            if (rdbBoxIDFrom.Checked)
+            if (rdbBoxID.Checked)
             {
                 command.Append("where 1 = 1 ");
                 if (!string.IsNullOrEmpty(txtBoxIDFrom.Text))
@@ -109,8 +109,11 @@ namespace BoxID2019
         {
             getDataIntoDatatable(ref dt);
             dgvBoxID.DataSource = dt;
-            addCheckBoxDgv();
             if (addButton) addButtonsDgv();
+            if (dgvBoxID.Columns.Count >= 5)
+            {
+                addCheckBoxDgv();
+            }
             dgvBoxID.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dgvBoxID.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.ColumnHeader;
             dgvBoxID.Refresh();
@@ -128,6 +131,8 @@ namespace BoxID2019
 
         private void addCheckBoxDgv()
         {
+            DataGridViewColumn dc = new DataGridViewColumn();
+            dc.ValueType = typeof(bool);
             ckbShipDate = new CheckBox();
             //Get the column header cell bounds
             Rectangle rect1 = this.dgvBoxID.GetCellDisplayRectangle(3, -1, true);
@@ -136,8 +141,11 @@ namespace BoxID2019
             ckbShipDate.Location = rect1.Location;
             ckbShipDate.CheckedChanged += CkbShipDate_CheckedChanged;
             //Add the CheckBox into the DataGridView
-            this.dgvBoxID.Controls.Add(ckbShipDate);
-            this.dgvBoxID.Columns[3].HeaderText = "Edit ShipDate";
+            dc.HeaderText = "Edit Shipdate";
+            dgvBoxID.Columns.Add(dc);
+            //dgvBoxID.Columns.Insert(3, dc);
+            dgvBoxID.Controls.Add(ckbShipDate);
+            //dgvBoxID.Columns[3].HeaderText = "Edit ShipDate";
 
             ckbInvoice = new CheckBox();
             //Get the column header cell bounds
@@ -147,8 +155,10 @@ namespace BoxID2019
             ckbInvoice.Location = rect.Location;
             ckbInvoice.CheckedChanged += CkbInvoice_CheckedChanged;
             //Add the CheckBox into the DataGridView
-            this.dgvBoxID.Controls.Add(ckbInvoice);
-            this.dgvBoxID.Columns[5].HeaderText = "Update Invoice";
+            dc.HeaderText = "Update Invoice";
+            //dgvBoxID.Columns.Insert(5, dc);
+            dgvBoxID.Controls.Add(ckbInvoice);
+            //dgvBoxID.Columns[5].HeaderText = "Update Invoice";
         }
 
         private void CkbShipDate_CheckedChanged(object sender, EventArgs e)
@@ -255,6 +265,12 @@ namespace BoxID2019
             }
             MessageBox.Show("Updated Ship Date!", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Information);
             updateDataGridViews(false);
+        }
+
+        private void btnAddModel_Click(object sender, EventArgs e)
+        {
+            AddModelFrm addModelfrm = new AddModelFrm();
+            addModelfrm.ShowDialog();
         }
 
         private void btnExport_Click(object sender, EventArgs e)

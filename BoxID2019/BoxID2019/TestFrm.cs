@@ -81,8 +81,11 @@ namespace BoxID2019
                 }
                 else
                     r.Cells[0].Value = "2222";
-
             }
+
+            DateTime mont = new DateTime();
+            mont = dateTimePicker1.Value.AddMonths(int.Parse(textBox1.Text));
+            label1.Text = mont.ToString("yyyyMM");
         }
     }
 }

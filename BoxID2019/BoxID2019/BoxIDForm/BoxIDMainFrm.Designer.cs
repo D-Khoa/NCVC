@@ -43,7 +43,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.rdbProductSerial = new System.Windows.Forms.RadioButton();
-            this.rdbBoxIDFrom = new System.Windows.Forms.RadioButton();
+            this.rdbBoxID = new System.Windows.Forms.RadioButton();
             this.panel4 = new System.Windows.Forms.Panel();
             this.cmbModel = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -172,7 +172,7 @@
             // panel3
             // 
             this.panel3.Controls.Add(this.rdbProductSerial);
-            this.panel3.Controls.Add(this.rdbBoxIDFrom);
+            this.panel3.Controls.Add(this.rdbBoxID);
             this.panel3.Controls.Add(this.txtBoxIDFrom);
             this.panel3.Controls.Add(this.txtProductSerial);
             this.panel3.Controls.Add(this.txtInvoice);
@@ -196,18 +196,18 @@
             this.rdbProductSerial.Text = "Product Serial";
             this.rdbProductSerial.UseVisualStyleBackColor = true;
             // 
-            // rdbBoxIDFrom
+            // rdbBoxID
             // 
-            this.rdbBoxIDFrom.AutoSize = true;
-            this.rdbBoxIDFrom.Checked = true;
-            this.rdbBoxIDFrom.Location = new System.Drawing.Point(12, 11);
-            this.rdbBoxIDFrom.Name = "rdbBoxIDFrom";
-            this.rdbBoxIDFrom.Size = new System.Drawing.Size(83, 17);
-            this.rdbBoxIDFrom.TabIndex = 11;
-            this.rdbBoxIDFrom.TabStop = true;
-            this.rdbBoxIDFrom.Text = "Box ID From";
-            this.rdbBoxIDFrom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rdbBoxIDFrom.UseVisualStyleBackColor = true;
+            this.rdbBoxID.AutoSize = true;
+            this.rdbBoxID.Checked = true;
+            this.rdbBoxID.Location = new System.Drawing.Point(12, 11);
+            this.rdbBoxID.Name = "rdbBoxID";
+            this.rdbBoxID.Size = new System.Drawing.Size(57, 17);
+            this.rdbBoxID.TabIndex = 11;
+            this.rdbBoxID.TabStop = true;
+            this.rdbBoxID.Text = "Box ID";
+            this.rdbBoxID.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rdbBoxID.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -286,7 +286,7 @@
             this.pnlAdmin.Controls.Add(this.btnUpInvoice);
             this.pnlAdmin.Location = new System.Drawing.Point(328, 216);
             this.pnlAdmin.Name = "pnlAdmin";
-            this.pnlAdmin.Size = new System.Drawing.Size(198, 64);
+            this.pnlAdmin.Size = new System.Drawing.Size(201, 64);
             this.pnlAdmin.TabIndex = 25;
             this.pnlAdmin.Visible = false;
             // 
@@ -298,6 +298,7 @@
             this.btnAddModel.TabIndex = 2;
             this.btnAddModel.Text = "Add Model";
             this.btnAddModel.UseVisualStyleBackColor = true;
+            this.btnAddModel.Click += new System.EventHandler(this.btnAddModel_Click);
             // 
             // btnEditShipping
             // 
@@ -375,7 +376,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.RadioButton rdbProductSerial;
-        private System.Windows.Forms.RadioButton rdbBoxIDFrom;
+        private System.Windows.Forms.RadioButton rdbBoxID;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAddBoxId;

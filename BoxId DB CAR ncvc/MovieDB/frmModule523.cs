@@ -131,11 +131,24 @@ namespace BoxIdDb
             }
         }
 
+        private void setProductTable()
+        {
+            if (!string.IsNullOrEmpty(cmbModel.Text))
+            {
+                string[] model = cmbModel.Text.Split('_');
+                productTable = "product_serial_" + model[1];
+            }
+            //else
+            //{
+            //    MessageBox.Show("Please choose model!", "Warring", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //    cmbModel.Focus();
+            //}
+        }
+
         private void defineAndReadDtOverall(ref DataTable dt)
         {
             string boxId = txtBoxId.Text;
-            string[] model = cmbModel.Text.Split('_');
-            productTable = "product_serial_" + model[1];
+            setProductTable();
             dt.Columns.Add("serialno", Type.GetType("System.String"));
             dt.Columns.Add("model", Type.GetType("System.String"));
             dt.Columns.Add("lot", Type.GetType("System.String"));
@@ -541,10 +554,10 @@ namespace BoxIdDb
         private void decideReferenceTable()
         {
             testerTableThisMonth = cmbModel.Text + DateTime.Today.ToString("yyyyMM");
-            tableThisMonth = testerTableThisMonth + "data";
+            tableThisMonth = testerTableThisMonth;
             testerTableLastMonth = cmbModel.Text + ((VBS.Right(DateTime.Today.ToString("yyyyMM"), 2) != "01") ?
                 (long.Parse(DateTime.Today.ToString("yyyyMM")) - 1).ToString() : (long.Parse(DateTime.Today.ToString("yyyy")) - 1).ToString() + "12");
-            tableLastMonth = testerTableLastMonth + "data";
+            tableLastMonth = testerTableLastMonth;
         }
 
         private void btnPrint_Click(object sender, EventArgs e)

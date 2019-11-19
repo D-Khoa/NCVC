@@ -16,7 +16,7 @@ namespace BoxID2019
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginFrm());
+            Application.Run(new TestFrm());
         }
     }
 }

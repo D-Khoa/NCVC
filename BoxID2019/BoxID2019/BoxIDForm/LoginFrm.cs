@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BoxID2019
@@ -64,18 +58,23 @@ namespace BoxID2019
                 }
                 LoginStatus(true);
                 BoxIDMainFrm boxIDfrm = new BoxIDMainFrm();
+                boxIDfrm.FormClosed += BoxIDfrm_FormClosed;
                 CommonFrm.UserName = cmbUser.Text;
                 CommonFrm.UserRole = CheckRole();
                 this.Hide();
                 boxIDfrm.ShowDialog();
-                LoginStatus(false);
-                this.Show();
-                this.Invalidate();
             }
             else
-                MessageBox.Show("Wrong password!!!", "Warring");
+                MessageBox.Show("Wrong password!!!", "Warring", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             txtPassword.Clear();
             txtPassword.Focus();
+        }
+
+        private void BoxIDfrm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            LoginStatus(false);
+            this.Show();
+            this.Invalidate();
         }
 
         private bool LoginStatus(bool state)

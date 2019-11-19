@@ -87,6 +87,12 @@
     <Compile Include="BoxIDForm\AddBoxIDFrm.Designer.cs">
       <DependentUpon>AddBoxIDFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BoxIDForm\AddModelFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoxIDForm\AddModelFrm.Designer.cs">
+      <DependentUpon>AddModelFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BoxIDForm\BoxIDMainFrm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     <Compile Include="BoxIDClass\TfSQL.cs" />
     <EmbeddedResource Include="BoxIDForm\AddBoxIDFrm.resx">
       <DependentUpon>AddBoxIDFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoxIDForm\AddModelFrm.resx">
+      <DependentUpon>AddModelFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BoxIDForm\BoxIDMainFrm.resx">
       <DependentUpon>BoxIDMainFrm.cs</DependentUpon>
