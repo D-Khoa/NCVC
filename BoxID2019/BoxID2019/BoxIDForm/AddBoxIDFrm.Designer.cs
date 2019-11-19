@@ -57,6 +57,7 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnClose = new System.Windows.Forms.Button();
             this.dgvBoxPackage = new System.Windows.Forms.DataGridView();
+            this.txtChangeLimit = new System.Windows.Forms.TextBox();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -67,6 +68,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.txtChangeLimit);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.lbLimit);
             this.panel3.Controls.Add(this.btnChangeLimit);
@@ -109,13 +111,14 @@
             // 
             // btnChangeLimit
             // 
-            this.btnChangeLimit.Location = new System.Drawing.Point(452, 71);
+            this.btnChangeLimit.Location = new System.Drawing.Point(452, 73);
             this.btnChangeLimit.Name = "btnChangeLimit";
             this.btnChangeLimit.Size = new System.Drawing.Size(55, 26);
             this.btnChangeLimit.TabIndex = 17;
             this.btnChangeLimit.Text = "Change";
             this.btnChangeLimit.UseVisualStyleBackColor = true;
             this.btnChangeLimit.Visible = false;
+            this.btnChangeLimit.Click += new System.EventHandler(this.btnChangeLimit_Click);
             // 
             // lbUsername
             // 
@@ -294,6 +297,7 @@
             this.btnExport.TabIndex = 3;
             this.btnExport.Text = "Export Excel";
             this.btnExport.UseVisualStyleBackColor = true;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
             // btnDelProduct
             // 
@@ -344,6 +348,7 @@
             this.btnClose.TabIndex = 9;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // dgvBoxPackage
             // 
@@ -352,6 +357,17 @@
             this.dgvBoxPackage.Name = "dgvBoxPackage";
             this.dgvBoxPackage.Size = new System.Drawing.Size(658, 209);
             this.dgvBoxPackage.TabIndex = 8;
+            // 
+            // txtChangeLimit
+            // 
+            this.txtChangeLimit.BackColor = System.Drawing.Color.Yellow;
+            this.txtChangeLimit.ForeColor = System.Drawing.Color.Red;
+            this.txtChangeLimit.Location = new System.Drawing.Point(389, 77);
+            this.txtChangeLimit.Name = "txtChangeLimit";
+            this.txtChangeLimit.Size = new System.Drawing.Size(57, 20);
+            this.txtChangeLimit.TabIndex = 20;
+            this.txtChangeLimit.Visible = false;
+            this.txtChangeLimit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtChangeLimit_KeyPress);
             // 
             // AddBoxIDFrm
             // 
@@ -414,5 +430,6 @@
         private System.Windows.Forms.DataGridView dgvBoxPackage;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.TextBox txtChangeLimit;
     }
 }

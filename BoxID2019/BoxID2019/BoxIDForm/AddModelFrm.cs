@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace BoxID2019
 {
-    public partial class AddModelFrm : Form
+    public partial class AddModelFrm : CommonFrm
     {
         public AddModelFrm()
         {

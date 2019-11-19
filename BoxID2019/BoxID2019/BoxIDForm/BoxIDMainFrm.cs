@@ -14,7 +14,7 @@ namespace BoxID2019
 {
     public partial class BoxIDMainFrm : CommonFrm
     {
-        TfSQL SQL, SQL2;
+        TfSQL SQL;
         DataTable dt;
         CheckBox ckbInvoice;
         CheckBox ckbShipDate;
@@ -27,7 +27,6 @@ namespace BoxID2019
             InitializeComponent();
             dt = new DataTable();
             SQL = new TfSQL("boxidcardb");
-            SQL2 = new TfSQL("pqmdb");
             command = new StringBuilder();
         }
 
@@ -35,7 +34,7 @@ namespace BoxID2019
         {
             command.Clear();
             command.Append("SELECT model FROM tbl_model_dbplace ORDER BY model");
-            SQL2.getComboBoxData(command.ToString(), ref cmbModel);
+            SQL.getComboBoxData(command.ToString(), ref cmbModel);
             lbUsername.Text = UserName;
             if (UserRole == "admin")
             {
@@ -58,8 +57,6 @@ namespace BoxID2019
             productTable = "product_serial_rt" + s[1];
             if (checkProductSerialTable("product_serial_rtcd"))
                 return "product_serial_rtcd";
-            else if (checkProductSerialTable("product_serial_517eb"))
-                return "product_serial_517eb";
             else if (checkProductSerialTable("product_serial_rt"))
                 return "product_serial_rt";
             else
@@ -74,8 +71,8 @@ namespace BoxID2019
             if (rdbBoxID.Checked)
             {
                 command.Append("where 1 = 1 ");
-                if (!string.IsNullOrEmpty(txtBoxIDFrom.Text))
-                    command.Append("and a.boxid like '").Append(txtBoxIDFrom.Text).Append("%' ");
+                if (!string.IsNullOrEmpty(txtBoxID.Text))
+                    command.Append("and a.boxid like '").Append(txtBoxID.Text).Append("%' ");
             }
             else if (rdbProductSerial.Checked)
             {
@@ -242,7 +239,7 @@ namespace BoxID2019
                 {
                     command.Clear();
                     command.Append("UPDATE box_id_rt SET invoice = '").Append(txtInvoice.Text);
-                    command.Append("WHERE boxid = '").Append(txtBoxIDFrom.Text).Append("'");
+                    command.Append("WHERE boxid = '").Append(txtBoxID.Text).Append("'");
                     SQL.sqlExecuteNonQuery(command.ToString(), false);
                 }
             }
@@ -259,7 +256,7 @@ namespace BoxID2019
                 {
                     command.Clear();
                     command.Append("UPDATE box_id_rt SET shipdate = '").Append(dtpShipDate.Value.ToString());
-                    command.Append("WHERE boxid = '").Append(txtBoxIDFrom.Text).Append("'");
+                    command.Append("WHERE boxid = '").Append(txtBoxID.Text).Append("'");
                     SQL.sqlExecuteNonQuery(command.ToString(), false);
                 }
             }
@@ -311,7 +308,7 @@ namespace BoxID2019
         {
             BarCode barCode = new BarCode();
             barCode.SymbologyType = SymbologyType.Code128;
-            barCode.CodeText = txtBoxIDFrom.Text;
+            barCode.CodeText = txtBoxID.Text;
             barCode.BarCodeWidth = pnlBarcode.Width;
             barCode.BarCodeHeight = pnlBarcode.Height;
             if (!string.IsNullOrEmpty(barCode.CodeText))

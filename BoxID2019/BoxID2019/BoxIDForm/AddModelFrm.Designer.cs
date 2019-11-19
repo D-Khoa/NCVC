@@ -38,7 +38,7 @@
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(43, 83);
+            this.btnOK.Location = new System.Drawing.Point(80, 154);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 1;
@@ -49,7 +49,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 20);
+            this.label1.Location = new System.Drawing.Point(49, 91);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 13);
             this.label1.TabIndex = 2;
@@ -58,7 +58,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 53);
+            this.label2.Location = new System.Drawing.Point(49, 124);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 3;
@@ -66,14 +66,14 @@
             // 
             // txtModel
             // 
-            this.txtModel.Location = new System.Drawing.Point(83, 17);
+            this.txtModel.Location = new System.Drawing.Point(120, 88);
             this.txtModel.Name = "txtModel";
             this.txtModel.Size = new System.Drawing.Size(176, 20);
             this.txtModel.TabIndex = 4;
             // 
             // txtPlace
             // 
-            this.txtPlace.Location = new System.Drawing.Point(83, 50);
+            this.txtPlace.Location = new System.Drawing.Point(120, 121);
             this.txtPlace.Name = "txtPlace";
             this.txtPlace.Size = new System.Drawing.Size(81, 20);
             this.txtPlace.TabIndex = 5;
@@ -81,7 +81,8 @@
             // 
             // btnCancle
             // 
-            this.btnCancle.Location = new System.Drawing.Point(161, 83);
+            this.btnCancle.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnCancle.Location = new System.Drawing.Point(198, 154);
             this.btnCancle.Name = "btnCancle";
             this.btnCancle.Size = new System.Drawing.Size(75, 23);
             this.btnCancle.TabIndex = 6;
@@ -95,7 +96,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancle;
-            this.ClientSize = new System.Drawing.Size(271, 125);
+            this.ClientSize = new System.Drawing.Size(352, 195);
             this.Controls.Add(this.btnCancle);
             this.Controls.Add(this.txtPlace);
             this.Controls.Add(this.txtModel);
@@ -109,6 +110,13 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Model";
+            this.Title_Name = "Add Model";
+            this.Controls.SetChildIndex(this.btnOK, 0);
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.label2, 0);
+            this.Controls.SetChildIndex(this.txtModel, 0);
+            this.Controls.SetChildIndex(this.txtPlace, 0);
+            this.Controls.SetChildIndex(this.btnCancle, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 

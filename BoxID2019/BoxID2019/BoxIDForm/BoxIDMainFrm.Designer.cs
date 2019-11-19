@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BoxIDMainFrm));
-            this.txtBoxIDFrom = new System.Windows.Forms.TextBox();
+            this.txtBoxID = new System.Windows.Forms.TextBox();
             this.txtProductSerial = new System.Windows.Forms.TextBox();
             this.txtInvoice = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -61,13 +61,13 @@
             this.pnlAdmin.SuspendLayout();
             this.SuspendLayout();
             // 
-            // txtBoxIDFrom
+            // txtBoxID
             // 
-            this.txtBoxIDFrom.Location = new System.Drawing.Point(122, 10);
-            this.txtBoxIDFrom.Name = "txtBoxIDFrom";
-            this.txtBoxIDFrom.Size = new System.Drawing.Size(146, 20);
-            this.txtBoxIDFrom.TabIndex = 1;
-            this.txtBoxIDFrom.TextChanged += new System.EventHandler(this.txtBoxIDFrom_TextChanged);
+            this.txtBoxID.Location = new System.Drawing.Point(122, 10);
+            this.txtBoxID.Name = "txtBoxID";
+            this.txtBoxID.Size = new System.Drawing.Size(146, 20);
+            this.txtBoxID.TabIndex = 1;
+            this.txtBoxID.TextChanged += new System.EventHandler(this.txtBoxIDFrom_TextChanged);
             // 
             // txtProductSerial
             // 
@@ -173,7 +173,7 @@
             // 
             this.panel3.Controls.Add(this.rdbProductSerial);
             this.panel3.Controls.Add(this.rdbBoxID);
-            this.panel3.Controls.Add(this.txtBoxIDFrom);
+            this.panel3.Controls.Add(this.txtBoxID);
             this.panel3.Controls.Add(this.txtProductSerial);
             this.panel3.Controls.Add(this.txtInvoice);
             this.panel3.Controls.Add(this.label3);
@@ -362,7 +362,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtBoxIDFrom;
+        private System.Windows.Forms.TextBox txtBoxID;
         private System.Windows.Forms.TextBox txtProductSerial;
         private System.Windows.Forms.TextBox txtInvoice;
         private System.Windows.Forms.Label label3;
