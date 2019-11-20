@@ -33,7 +33,7 @@ namespace BoxID2019
         private void BoxIDMainFrm_Load(object sender, EventArgs e)
         {
             command.Clear();
-            command.Append("SELECT model FROM tbl_model_dbplace ORDER BY model");
+            command.Append("SELECT model FROM tbl_model_box_limit ORDER BY model");
             SQL.getComboBoxData(command.ToString(), ref cmbModel);
             lbUsername.Text = UserName;
             if (UserRole == "admin")
@@ -107,10 +107,7 @@ namespace BoxID2019
             getDataIntoDatatable(ref dt);
             dgvBoxID.DataSource = dt;
             if (addButton) addButtonsDgv();
-            if (dgvBoxID.Columns.Count >= 5)
-            {
-                addCheckBoxDgv();
-            }
+            addCheckBoxDgv();
             dgvBoxID.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dgvBoxID.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.ColumnHeader;
             dgvBoxID.Refresh();
@@ -128,34 +125,38 @@ namespace BoxID2019
 
         private void addCheckBoxDgv()
         {
-            DataGridViewColumn dc = new DataGridViewColumn();
-            dc.ValueType = typeof(bool);
+            DataGridViewCheckBoxColumn dc = new DataGridViewCheckBoxColumn();
+            dc.CellTemplate = new DataGridViewCheckBoxCell();
+
+            DataGridViewCheckBoxColumn dc2 = new DataGridViewCheckBoxColumn();
+            dc.CellTemplate = new DataGridViewCheckBoxCell();
+
+            dgvBoxID.Columns.Insert(3, dc);
+            dgvBoxID.Columns[3].Name = "EditShip";
+            dgvBoxID.Columns[3].HeaderText = "Edit ShipDate";
+            dgvBoxID.Columns.Insert(5, dc2);
+            dgvBoxID.Columns[5].Name = "UpInvoice";
+            dgvBoxID.Columns[5].HeaderText = "Update Invoice";
+
             ckbShipDate = new CheckBox();
             //Get the column header cell bounds
-            Rectangle rect1 = this.dgvBoxID.GetCellDisplayRectangle(3, -1, true);
+            Rectangle rect1 = this.dgvBoxID.GetCellDisplayRectangle(dgvBoxID.Columns["EditShip"].Index, -1, true);
             ckbShipDate.Size = new Size(14, 14);
             //Change the location of the CheckBox to make it stay on the header
             ckbShipDate.Location = rect1.Location;
             ckbShipDate.CheckedChanged += CkbShipDate_CheckedChanged;
             //Add the CheckBox into the DataGridView
-            dc.HeaderText = "Edit Shipdate";
-            dgvBoxID.Columns.Add(dc);
-            //dgvBoxID.Columns.Insert(3, dc);
             dgvBoxID.Controls.Add(ckbShipDate);
-            //dgvBoxID.Columns[3].HeaderText = "Edit ShipDate";
 
             ckbInvoice = new CheckBox();
             //Get the column header cell bounds
-            Rectangle rect = this.dgvBoxID.GetCellDisplayRectangle(5, -1, true);
+            Rectangle rect = this.dgvBoxID.GetCellDisplayRectangle(4, -1, true);
             ckbInvoice.Size = new Size(14, 14);
             //Change the location of the CheckBox to make it stay on the header
             ckbInvoice.Location = rect.Location;
             ckbInvoice.CheckedChanged += CkbInvoice_CheckedChanged;
             //Add the CheckBox into the DataGridView
-            dc.HeaderText = "Update Invoice";
-            //dgvBoxID.Columns.Insert(5, dc);
             dgvBoxID.Controls.Add(ckbInvoice);
-            //dgvBoxID.Columns[5].HeaderText = "Update Invoice";
         }
 
         private void CkbShipDate_CheckedChanged(object sender, EventArgs e)
@@ -165,10 +166,10 @@ namespace BoxID2019
                 if (ckbShipDate.Checked)
                 {
                     if (string.IsNullOrEmpty(dr.Cells["shipdate"].Value.ToString()))
-                        dr.Cells[3].Value = true;
+                        dr.Cells["EditShip"].Value = true;
                 }
                 else
-                    dr.Cells[3].Value = false;
+                    dr.Cells["EditShip"].Value = false;
             }
         }
 
@@ -176,13 +177,13 @@ namespace BoxID2019
         {
             foreach (DataGridViewRow dr in dgvBoxID.Rows)
             {
-                if (ckbShipDate.Checked)
+                if (ckbInvoice.Checked)
                 {
                     if (string.IsNullOrEmpty(dr.Cells["invoice"].Value.ToString()))
-                        dr.Cells[5].Value = true;
+                        dr.Cells["UpInvoice"].Value = true;
                 }
                 else
-                    dr.Cells[5].Value = false;
+                    dr.Cells["UpInvoice"].Value = false;
             }
         }
         #endregion

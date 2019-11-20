@@ -32,7 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtModel = new System.Windows.Forms.TextBox();
-            this.txtPlace = new System.Windows.Forms.TextBox();
+            this.txtLimit = new System.Windows.Forms.TextBox();
             this.btnCancle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -60,9 +60,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(49, 124);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
+            this.label2.Size = new System.Drawing.Size(28, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Place";
+            this.label2.Text = "Limit";
             // 
             // txtModel
             // 
@@ -71,13 +71,14 @@
             this.txtModel.Size = new System.Drawing.Size(176, 20);
             this.txtModel.TabIndex = 4;
             // 
-            // txtPlace
+            // txtLimit
             // 
-            this.txtPlace.Location = new System.Drawing.Point(120, 121);
-            this.txtPlace.Name = "txtPlace";
-            this.txtPlace.Size = new System.Drawing.Size(81, 20);
-            this.txtPlace.TabIndex = 5;
-            this.txtPlace.Text = "CAR";
+            this.txtLimit.Location = new System.Drawing.Point(120, 121);
+            this.txtLimit.Name = "txtLimit";
+            this.txtLimit.Size = new System.Drawing.Size(81, 20);
+            this.txtLimit.TabIndex = 5;
+            this.txtLimit.Text = "0";
+            this.txtLimit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPlace_KeyPress);
             // 
             // btnCancle
             // 
@@ -98,7 +99,7 @@
             this.CancelButton = this.btnCancle;
             this.ClientSize = new System.Drawing.Size(352, 195);
             this.Controls.Add(this.btnCancle);
-            this.Controls.Add(this.txtPlace);
+            this.Controls.Add(this.txtLimit);
             this.Controls.Add(this.txtModel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -115,7 +116,7 @@
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.txtModel, 0);
-            this.Controls.SetChildIndex(this.txtPlace, 0);
+            this.Controls.SetChildIndex(this.txtLimit, 0);
             this.Controls.SetChildIndex(this.btnCancle, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -128,7 +129,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtModel;
-        private System.Windows.Forms.TextBox txtPlace;
+        private System.Windows.Forms.TextBox txtLimit;
         private System.Windows.Forms.Button btnCancle;
     }
 }

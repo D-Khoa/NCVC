@@ -43,7 +43,7 @@ namespace BoxID2019
         private void AddBoxIDFrm_Load(object sender, EventArgs e)
         {
             command.Clear();
-            command.Append("SELECT model FROM tbl_model_dbplace ORDER BY model");
+            command.Append("SELECT model FROM tbl_model_box_limit ORDER BY model");
             SQL.getComboBoxData(command.ToString(), ref cmbModel);
             cmbModel.SelectedIndex = cmbModel.Items.IndexOf(Model);
             lbUsername.Text = UserName;
@@ -89,7 +89,7 @@ namespace BoxID2019
                 modelTail = s[1];
             }
             command.Clear();
-            command.Append("SELECT limit FROM tbl_model_dbplace WHERE model ='").Append(Model).Append("'");
+            command.Append("SELECT box_limit FROM tbl_model_box_limit WHERE model ='").Append(Model).Append("'");
             limit = int.Parse(SQL.sqlExecuteScalarString(command.ToString()));
         }
 
@@ -117,7 +117,7 @@ namespace BoxID2019
                 {
                     limit = int.Parse(txtChangeLimit.Text);
                     command.Clear();
-                    command.Append("Update tbl_model_dbplace set limit ='").Append(limit).Append("' ");
+                    command.Append("Update tbl_model_box_limit set box_limit ='").Append(limit).Append("' ");
                     command.Append("Where model ='").Append(Model).Append("'");
                     SQL.sqlExecuteNonQuery(command.ToString(), true);
                 }
