@@ -137,23 +137,25 @@ namespace BoxID2019
             dgvBoxID.Columns.Insert(5, dc2);
             dgvBoxID.Columns[5].Name = "UpInvoice";
             dgvBoxID.Columns[5].HeaderText = "Update Invoice";
+            int i1 = dgvBoxID.Columns["EditShip"].Index;
+            int i2 = dgvBoxID.Columns["UpInvoice"].Index;
 
             ckbShipDate = new CheckBox();
             //Get the column header cell bounds
-            Rectangle rect1 = this.dgvBoxID.GetCellDisplayRectangle(dgvBoxID.Columns["EditShip"].Index, -1, true);
+            Rectangle rect1 = this.dgvBoxID.GetCellDisplayRectangle(i1, -1, true);
             ckbShipDate.Size = new Size(14, 14);
             //Change the location of the CheckBox to make it stay on the header
-            ckbShipDate.Location = rect1.Location;
+            ckbShipDate.Location = new Point(rect1.Location.X + rect1.Width - 14, rect1.Location.Y);
             ckbShipDate.CheckedChanged += CkbShipDate_CheckedChanged;
             //Add the CheckBox into the DataGridView
             dgvBoxID.Controls.Add(ckbShipDate);
 
             ckbInvoice = new CheckBox();
             //Get the column header cell bounds
-            Rectangle rect = this.dgvBoxID.GetCellDisplayRectangle(4, -1, true);
+            Rectangle rect = this.dgvBoxID.GetCellDisplayRectangle(i2, -1, true);
             ckbInvoice.Size = new Size(14, 14);
             //Change the location of the CheckBox to make it stay on the header
-            ckbInvoice.Location = rect.Location;
+            ckbInvoice.Location = new Point(rect.Location.X + rect.Width - 14, rect.Location.Y);
             ckbInvoice.CheckedChanged += CkbInvoice_CheckedChanged;
             //Add the CheckBox into the DataGridView
             dgvBoxID.Controls.Add(ckbInvoice);
@@ -235,7 +237,7 @@ namespace BoxID2019
         {
             foreach (DataGridViewRow dr in dgvBoxID.Rows)
             {
-                if (dr.Cells[5].Value != null && (bool)dr.Cells[5].Value == true
+                if (dr.Cells["UpInvoice"].Value != null && (bool)dr.Cells["UpInvoice"].Value == true
                     && string.IsNullOrEmpty(dr.Cells["invoice"].Value.ToString()))
                 {
                     command.Clear();
@@ -252,7 +254,7 @@ namespace BoxID2019
         {
             foreach (DataGridViewRow dr in dgvBoxID.Rows)
             {
-                if (dr.Cells[3].Value != null && (bool)dr.Cells[3].Value == true
+                if (dr.Cells["EditShip"].Value != null && (bool)dr.Cells["EditShip"].Value == true
                     && string.IsNullOrEmpty(dr.Cells["shipdate"].Value.ToString()))
                 {
                     command.Clear();

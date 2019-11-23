@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel3 = new System.Windows.Forms.Panel();
+            this.txtChangeLimit = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.lbLimit = new System.Windows.Forms.Label();
             this.btnChangeLimit = new System.Windows.Forms.Button();
@@ -57,7 +58,6 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnClose = new System.Windows.Forms.Button();
             this.dgvBoxPackage = new System.Windows.Forms.DataGridView();
-            this.txtChangeLimit = new System.Windows.Forms.TextBox();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -89,6 +89,17 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(664, 111);
             this.panel3.TabIndex = 1;
+            // 
+            // txtChangeLimit
+            // 
+            this.txtChangeLimit.BackColor = System.Drawing.Color.Yellow;
+            this.txtChangeLimit.ForeColor = System.Drawing.Color.Red;
+            this.txtChangeLimit.Location = new System.Drawing.Point(389, 77);
+            this.txtChangeLimit.Name = "txtChangeLimit";
+            this.txtChangeLimit.Size = new System.Drawing.Size(57, 20);
+            this.txtChangeLimit.TabIndex = 20;
+            this.txtChangeLimit.Visible = false;
+            this.txtChangeLimit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtChangeLimit_KeyPress);
             // 
             // label7
             // 
@@ -267,6 +278,7 @@
             this.btnAddProduct.Text = "Add Product";
             this.btnAddProduct.UseVisualStyleBackColor = true;
             this.btnAddProduct.Visible = false;
+            this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
             // 
             // btnRegBoxID
             // 
@@ -288,6 +300,7 @@
             this.btnReprint.Text = "Reprint";
             this.btnReprint.UseVisualStyleBackColor = true;
             this.btnReprint.Visible = false;
+            this.btnReprint.Click += new System.EventHandler(this.btnReprint_Click);
             // 
             // btnExport
             // 
@@ -307,6 +320,7 @@
             this.btnDelProduct.TabIndex = 4;
             this.btnDelProduct.Text = "Delete Product";
             this.btnDelProduct.UseVisualStyleBackColor = true;
+            this.btnDelProduct.Click += new System.EventHandler(this.btnDelProduct_Click);
             // 
             // btnDelBoxID
             // 
@@ -316,6 +330,7 @@
             this.btnDelBoxID.TabIndex = 5;
             this.btnDelBoxID.Text = "Delete Box ID";
             this.btnDelBoxID.UseVisualStyleBackColor = true;
+            this.btnDelBoxID.Click += new System.EventHandler(this.btnDelBoxID_Click);
             // 
             // grAdmin
             // 
@@ -357,17 +372,6 @@
             this.dgvBoxPackage.Name = "dgvBoxPackage";
             this.dgvBoxPackage.Size = new System.Drawing.Size(658, 209);
             this.dgvBoxPackage.TabIndex = 8;
-            // 
-            // txtChangeLimit
-            // 
-            this.txtChangeLimit.BackColor = System.Drawing.Color.Yellow;
-            this.txtChangeLimit.ForeColor = System.Drawing.Color.Red;
-            this.txtChangeLimit.Location = new System.Drawing.Point(389, 77);
-            this.txtChangeLimit.Name = "txtChangeLimit";
-            this.txtChangeLimit.Size = new System.Drawing.Size(57, 20);
-            this.txtChangeLimit.TabIndex = 20;
-            this.txtChangeLimit.Visible = false;
-            this.txtChangeLimit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtChangeLimit_KeyPress);
             // 
             // AddBoxIDFrm
             // 

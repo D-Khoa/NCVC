@@ -91,6 +91,7 @@ namespace BoxID2019
             command.Clear();
             command.Append("SELECT box_limit FROM tbl_model_box_limit WHERE model ='").Append(Model).Append("'");
             limit = int.Parse(SQL.sqlExecuteScalarString(command.ToString()));
+            UpdateLimitAndCounter();
         }
 
         private void txtCartonNo_TextChanged(object sender, EventArgs e)
@@ -124,7 +125,7 @@ namespace BoxID2019
                 btnChangeLimit.Text = "Change";
                 txtChangeLimit.Visible = false;
             }
-            lbOKCount.Text = OKcount + "/" + limit;
+            UpdateLimitAndCounter();
         }
 
         private void txtChangeLimit_KeyPress(object sender, KeyPressEventArgs e)
@@ -134,6 +135,12 @@ namespace BoxID2019
                 e.Handled = true;
                 MessageBox.Show("Please enter numbers only!", "Warring", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void UpdateLimitAndCounter()
+        {
+            lbLimit.Text = limit.ToString();
+            lbOKCount.Text = OKcount.ToString() + '/' + limit.ToString();
         }
         #endregion
 
@@ -161,8 +168,29 @@ namespace BoxID2019
             dataLastMonthTbl = processLastMonthTbl + "data";
         }
 
+        private void btnReprint_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddProduct_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDelProduct_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnRegBoxID_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnDelBoxID_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void btnExport_Click(object sender, EventArgs e)
