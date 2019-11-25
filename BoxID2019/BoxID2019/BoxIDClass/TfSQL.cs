@@ -199,7 +199,7 @@ namespace BoxID2019
                 int response = command.ExecuteNonQuery();
                 if (response >= 1)
                 {
-                    //if (result_message_show) { MessageBox.Show("Successful!", "Database Responce", MessageBoxButtons.OK, MessageBoxIcon.Information); }                    
+                    if (result_message_show) { MessageBox.Show("Successful!", "Database Responce", MessageBoxButtons.OK, MessageBoxIcon.Information); }                    
                     connection.Close();
                     return true;
                 }

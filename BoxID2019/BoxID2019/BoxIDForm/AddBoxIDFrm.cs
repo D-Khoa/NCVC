@@ -24,7 +24,7 @@ namespace BoxID2019
         string serial;
         string regdate;
         string modelTail;
-        string processThisMonthTbl, processLastMonthTbl, dataThisMonthTbl, dataLastMonthTbl;
+        string thisMonthTbl, lastMonthTbl;
 
         public AddBoxIDFrm(bool edit_Mode)
         {
@@ -157,15 +157,158 @@ namespace BoxID2019
                 }
                 txtProductSerial.Enabled = false;
                 serial = txtProductSerial.Text;
+                DefineTableName(DateTime.Now);
+                dtBoxPackage = DataProductSerial(serial);
+                dtBoxPackage.Columns.RemoveAt(dtBoxPackage.Columns.Count - 1);
+                dgvBoxPackage.DataSource = dtBoxPackage;
             }
+        }
+
+        private DataTable DataOQC(string inserial)
+        {
+            string sql = @"select serno, tjudge, inspectdate, " +
+            "MAX(case inspect when 'CG_CCW' then inspectdata else null end) as CG_CCW, " +
+            "MAX(case inspect when 'CIO_CCW' then inspectdata else null end) as CIO_CCW, " +
+            "MAX(case inspect when 'CNO_CCW' then inspectdata else null end) as CNO_CCW " +
+            "FROM " +
+            "(select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge " +
+            "from (select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE " +
+            "from (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, " +
+            "row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag " +
+            "from (select * from " + thisMonthTbl + "data " +
+            "WHERE serno = (select serno from " + thisMonthTbl +
+            " where process = 'NMT2' and serno = '" + serial + "' LIMIT 1) " +
+            "and inspect in ('CG_CCW','CIO_CCW','CNO_CCW')) a " +
+            "group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c, " +
+            "(select serno, tjudge from " + thisMonthTbl +
+            " where serno = '" + inserial + "' and process = 'NMT2' and tjudge = '0' " +
+            "order by inspectdate desc LIMIT 1) d " +
+            "group by d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge) e " +
+            "GROUP BY serno, tjudge, inspectdate " +
+            "UNION ALL " +
+            "select serno, tjudge, inspectdate, " +
+            "MAX(case inspect when 'CG_CCW' then inspectdata else null end) as CG_CCW, " +
+            "MAX(case inspect when 'CIO_CCW' then inspectdata else null end) as CIO_CCW, " +
+            "MAX(case inspect when 'CNO_CCW' then inspectdata else null end) as CNO_CCW " +
+            "FROM " +
+            "(select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge " +
+            "from (select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE " +
+            "from (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, " +
+            "row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag " +
+            "from (select * from " + lastMonthTbl + "data " +
+            "WHERE serno = (select serno from " + lastMonthTbl +
+            " where process = 'NMT2' and serno = '" + inserial + "' LIMIT 1) " +
+            "and inspect in ('CG_CCW','CIO_CCW','CNO_CCW')) a " +
+            "group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c, " +
+            "(select serno, tjudge from " + lastMonthTbl +
+            " where serno = '" + inserial + "' and process = 'NMT2' and tjudge = '0' " +
+            "order by inspectdate desc LIMIT 1) d " +
+            "group by d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge) e " +
+            "GROUP BY serno, tjudge, inspectdate";
+            System.Diagnostics.Debug.Print(System.Environment.NewLine + sql);
+            DataTable dt = new DataTable();
+            SQL.sqlDataAdapterFillDatatable(sql, ref dt);
+            return dt;
+        }
+
+        private DataTable DataInLine(string inserial)
+        {
+            string sql = "select serno, tjudge as tjudge_line, inspectdate as date_line, " +
+            "MAX(case inspect when 'AIO_CCW' then inspectdata else null end) as AIO_CCW, " +
+            "MAX(case inspect when 'ANO_CCW' then inspectdata else null end) as ANO_CCW, " +
+            "MAX(case inspect when 'AIR_CCW' then inspectdata else null end) as AIR_CCW, " +
+            "MAX(case inspect when 'ANR_CCW' then inspectdata else null end) as ANR_CCW, " +
+            "MAX(case inspect when 'AIS_CCW' then inspectdata else null end) as AIS_CCW " +
+            "FROM " +
+            "(select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge " +
+            "FROM(select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE " +
+            "FROM (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, " +
+            "row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag " +
+            "FROM (select * from " + thisMonthTbl + "data " +
+            "WHERE serno = (select lot from " + thisMonthTbl + " where process = 'NO53' " +
+            "and serno = '" + inserial + "' LIMIT 1) " +
+            "and inspect in ('AIO_CCW','AIR_CCW','AIS_CCW','ANO_CCW','ANR_CCW')) a " +
+            "group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c, " +
+            "(select serno, tjudge from " + thisMonthTbl + " where serno = (select lot from " + thisMonthTbl +
+            " where process = 'NO53' and serno = '" + inserial + "' LIMIT 1) " +
+            "and process = 'NO41' order by inspectdate desc LIMIT 1) d " +
+            "group by d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge) e " +
+            "GROUP BY serno, tjudge, inspectdate " +
+            "UNION ALL " +
+            "select serno, tjudge as tjudge_line, inspectdate as date_line, " +
+            "MAX(case inspect when 'AIO_CCW' then inspectdata else null end) as AIO_CCW, " +
+            "MAX(case inspect when 'ANO_CCW' then inspectdata else null end) as ANO_CCW, " +
+            "MAX(case inspect when 'AIR_CCW' then inspectdata else null end) as AIR_CCW, " +
+            "MAX(case inspect when 'ANR_CCW' then inspectdata else null end) as ANR_CCW, " +
+            "MAX(case inspect when 'AIS_CCW' then inspectdata else null end) as AIS_CCW " +
+            "FROM " +
+            "(select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge " +
+            "FROM(select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE " +
+            "FROM (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, " +
+            "row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag " +
+            "FROM (select * from " + lastMonthTbl + "data " +
+            "WHERE serno = (select lot from " + lastMonthTbl + " where process = 'NO53' " +
+            "and serno = '" + inserial + "' LIMIT 1) " +
+            "and inspect in ('AIO_CCW','AIR_CCW','AIS_CCW','ANO_CCW','ANR_CCW')) a " +
+            "group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c, " +
+            "(select serno, tjudge from " + lastMonthTbl + " where serno = (select lot from " + lastMonthTbl +
+            " where process = 'NO53' and serno = '" + inserial + "' LIMIT 1) and process = 'NO41' " +
+            "order by inspectdate desc LIMIT 1) d " +
+            "group by d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge) e " +
+            "GROUP BY serno, tjudge, inspectdate ";
+            System.Diagnostics.Debug.Print(System.Environment.NewLine + sql);
+            DataTable dt = new DataTable();
+            SQL.sqlDataAdapterFillDatatable(sql, ref dt);
+            return dt;
+        }
+
+        private DataTable DataProductSerial(string inserial)
+        {
+            string sql = @"(select * from (select a.serno, a.inspectdate, a.tjudge,
+            MAX(case inspect when 'CG_CCW' then inspectdata else null end) as CG_CCW,
+            MAX(case inspect when 'CIO_CCW' then inspectdata else null end) as CIO_CCW,
+            MAX(case inspect when 'CNO_CCW' then inspectdata else null end) as CNO_CCW
+            from " + thisMonthTbl + " a left join " + thisMonthTbl + @"data b
+            on a.serno = b.serno and a.inspectdate = b.inspectdate
+            where a.process = 'NMT3' group by a.serno, a.inspectdate, a.tjudge
+            order by a.inspectdate desc) c left join (select a.inspectdate, a.tjudge,
+            MAX(case inspect when 'AIO_CCW' then inspectdata else null end) as AIO_CCW,
+            MAX(case inspect when 'ANO_CCW' then inspectdata else null end) as ANO_CCW,
+            MAX(case inspect when 'AIR_CCW' then inspectdata else null end) as AIR_CCW,
+            MAX(case inspect when 'ANR_CCW' then inspectdata else null end) as ANR_CCW,
+            MAX(case inspect when 'AIS_CCW' then inspectdata else null end) as AIS_CCW,
+            a.serno from " + thisMonthTbl + " a left join " + thisMonthTbl + @"data b
+            on a.lot = b.serno where a.process in ('NO53')
+            group by a.serno, a.inspectdate, a.tjudge order by inspectdate desc) d
+            on c.serno = d.serno where c.serno = '" + inserial + @"' limit 1)
+            UNION ALL
+            (select * from(select a.serno, a.inspectdate, a.tjudge,
+            MAX(case inspect when 'CG_CCW' then inspectdata else null end) as CG_CCW,
+            MAX(case inspect when 'CIO_CCW' then inspectdata else null end) as CIO_CCW,
+            MAX(case inspect when 'CNO_CCW' then inspectdata else null end) as CNO_CCW
+            from " + lastMonthTbl + " a left join " + lastMonthTbl + @"data b
+            on a.serno = b.serno and a.inspectdate = b.inspectdate
+            where a.process = 'NMT3' group by a.serno, a.inspectdate, a.tjudge
+            order by a.inspectdate desc) c left join(select a.inspectdate, a.tjudge,
+            MAX(case inspect when 'AIO_CCW' then inspectdata else null end) as AIO_CCW,
+            MAX(case inspect when 'ANO_CCW' then inspectdata else null end) as ANO_CCW,
+            MAX(case inspect when 'AIR_CCW' then inspectdata else null end) as AIR_CCW,
+            MAX(case inspect when 'ANR_CCW' then inspectdata else null end) as ANR_CCW,
+            MAX(case inspect when 'AIS_CCW' then inspectdata else null end) as AIS_CCW,
+            a.serno from " + lastMonthTbl + " a left join " + lastMonthTbl + @"data b
+            on a.lot = b.serno where a.process in ('NO53')
+            group by a.serno, a.inspectdate, a.tjudge order by inspectdate desc) d
+            on c.serno = d.serno where c.serno = '" + inserial + "' limit 1)";
+            System.Diagnostics.Debug.Print(System.Environment.NewLine + sql);
+            DataTable dt = new DataTable();
+            SQL.sqlDataAdapterFillDatatable(sql, ref dt);
+            return dt;
         }
 
         private void DefineTableName(DateTime date)
         {
-            processThisMonthTbl = Model + date.ToString("yyyyMM");
-            dataThisMonthTbl = processThisMonthTbl + "data";
-            processLastMonthTbl = Model + date.AddMonths(-1).ToString("yyyyMM");
-            dataLastMonthTbl = processLastMonthTbl + "data";
+            thisMonthTbl = Model + date.ToString("yyyyMM");
+            lastMonthTbl = Model + date.AddMonths(-1).ToString("yyyyMM");
         }
 
         private void btnReprint_Click(object sender, EventArgs e)

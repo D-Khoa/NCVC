@@ -80,6 +80,7 @@
   <ItemGroup>
     <Compile Include="BoxIDClass\BoxIDVo.cs" />
     <Compile Include="BoxIDClass\ExcelClass.cs" />
+    <Compile Include="BoxIDClass\SQLLinQ.cs" />
     <Compile Include="BoxIDClass\TfGeneral.cs" />
     <Compile Include="BoxIDForm\AddBoxIDFrm.cs">
       <SubType>Form</SubType>

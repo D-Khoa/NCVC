@@ -270,7 +270,11 @@ namespace BoxID2019
         private void btnAddModel_Click(object sender, EventArgs e)
         {
             AddModelFrm addModelfrm = new AddModelFrm();
-            addModelfrm.ShowDialog();
+            if (addModelfrm.ShowDialog() == DialogResult.OK)
+            {
+                this.Refresh();
+                Application.DoEvents();
+            }
         }
 
         private void btnExport_Click(object sender, EventArgs e)
