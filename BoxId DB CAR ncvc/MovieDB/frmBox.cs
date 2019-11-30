@@ -215,7 +215,7 @@ namespace BoxIdDb
             if (dgvBoxId.Columns[e.ColumnIndex] == openBoxId && currentRow >= 0)
             {
                 //既にfrmModule が開かれている場合は、それ閉じるように促す
-                bool inUse = TfGeneral.checkOpenFormExists("frmModule");
+                bool inUse = TfGeneral.checkOpenFormExists("frmModule") && TfGeneral.checkOpenFormExists("frmModule517EB") && TfGeneral.checkOpenFormExists("frmModule517FB") && TfGeneral.checkOpenFormExists("frmModule523");
                 if (inUse)
                 {
                     MessageBox.Show("Please close the other already open window.", "Notice",
@@ -242,9 +242,21 @@ namespace BoxIdDb
                     f3.updateControls(frmName, boxId, printDate, serialNo, invoice, user, false, false);
                     f3.Show();
                 }
-                else if(dgvBoxId.CurrentRow.Cells["col_boxid"].Value.ToString().Contains("523"))
+                else if (dgvBoxId.CurrentRow.Cells["col_boxid"].Value.ToString().Contains("523"))
                 {
                     frmModule523 f3 = new frmModule523();
+                    //子イベントをキャッチして、データグリッドを更新する
+                    f3.RefreshEvent += delegate (object sndr, EventArgs excp)
+                    {
+                        updateDataGridViews(ref dgvBoxId, false);
+                        Focus();
+                    };
+                    f3.updateControls(frmName, boxId, printDate, serialNo, invoice, user, false, false);
+                    f3.Show();
+                }
+                else if (dgvBoxId.CurrentRow.Cells["col_boxid"].Value.ToString().Contains("517FB"))
+                {
+                    frmModule517FB f3 = new frmModule517FB();
                     //子イベントをキャッチして、データグリッドを更新する
                     f3.RefreshEvent += delegate (object sndr, EventArgs excp)
                     {
@@ -384,10 +396,15 @@ namespace BoxIdDb
         private void btnCancel_Click(object sender, EventArgs e)
         {
             string formName = "frmModule";
+            string formName1 = "frmModule517EB";
+            string formName2 = "frmModule517FB";
+            string formName3 = "frmModule523";
+
             bool bl = false;
             foreach (Form buff in Application.OpenForms)
             {
-                if (buff.Name == formName) { bl = true; }
+                if (buff.Name == formName || buff.Name == formName1 || buff.Name == formName2 || buff.Name == formName3)
+                { bl = true; }
             }
             if (bl)
             {
@@ -552,6 +569,31 @@ namespace BoxIdDb
             else
             {
                 frmModule523 f3 = new frmModule523();
+                //子イベントをキャッチして、データグリッドを更新する
+                f3.RefreshEvent += delegate (object sndr, EventArgs excp)
+                {
+                    updateDataGridViews(ref dgvBoxId, false);
+                    Focus();
+                };
+
+                f3.updateControls(String.Empty, String.Empty, DateTime.Now, String.Empty, String.Empty, user, true, false);
+                f3.Show();
+            }
+        }
+
+        private void btnAddBoxID517FB_Click(object sender, EventArgs e)
+        {
+            string user = txtUser.Text;
+
+            bool bl = TfGeneral.checkOpenFormExists("frmModule517FB");
+            if (bl)
+            {
+                MessageBox.Show("Please close brows-mode form or finish the current edit form.", "BoxId DB",
+                MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2);
+            }
+            else
+            {
+                frmModule517FB f3 = new frmModule517FB();
                 //子イベントをキャッチして、データグリッドを更新する
                 f3.RefreshEvent += delegate (object sndr, EventArgs excp)
                 {

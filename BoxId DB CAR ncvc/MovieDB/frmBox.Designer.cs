@@ -66,15 +66,16 @@ namespace BoxIdDb
             this.txtInvoice = new System.Windows.Forms.TextBox();
             this.btnAdd517 = new System.Windows.Forms.Button();
             this.btnAddBoxID523 = new System.Windows.Forms.Button();
+            this.btnAddBoxID517FB = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBoxId)).BeginInit();
             this.pnlInvoice.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnAddBoxId
             // 
-            this.btnAddBoxId.Location = new System.Drawing.Point(149, 209);
+            this.btnAddBoxId.Location = new System.Drawing.Point(49, 231);
             this.btnAddBoxId.Name = "btnAddBoxId";
-            this.btnAddBoxId.Size = new System.Drawing.Size(80, 25);
+            this.btnAddBoxId.Size = new System.Drawing.Size(114, 25);
             this.btnAddBoxId.TabIndex = 6;
             this.btnAddBoxId.Text = "Add Box ID";
             this.btnAddBoxId.UseVisualStyleBackColor = true;
@@ -82,7 +83,7 @@ namespace BoxIdDb
             // 
             // btnSearchBoxId
             // 
-            this.btnSearchBoxId.Location = new System.Drawing.Point(53, 209);
+            this.btnSearchBoxId.Location = new System.Drawing.Point(49, 200);
             this.btnSearchBoxId.Name = "btnSearchBoxId";
             this.btnSearchBoxId.Size = new System.Drawing.Size(80, 25);
             this.btnSearchBoxId.TabIndex = 2;
@@ -238,7 +239,7 @@ namespace BoxIdDb
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(561, 209);
+            this.btnCancel.Location = new System.Drawing.Point(555, 201);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(80, 25);
             this.btnCancel.TabIndex = 6;
@@ -280,7 +281,7 @@ namespace BoxIdDb
             // 
             // btnExport
             // 
-            this.btnExport.Location = new System.Drawing.Point(244, 209);
+            this.btnExport.Location = new System.Drawing.Point(175, 200);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(80, 25);
             this.btnExport.TabIndex = 42;
@@ -346,7 +347,7 @@ namespace BoxIdDb
             // btnUpInv
             // 
             this.btnUpInv.Enabled = false;
-            this.btnUpInv.Location = new System.Drawing.Point(349, 209);
+            this.btnUpInv.Location = new System.Drawing.Point(4, 2);
             this.btnUpInv.Name = "btnUpInv";
             this.btnUpInv.Size = new System.Drawing.Size(97, 25);
             this.btnUpInv.TabIndex = 43;
@@ -358,8 +359,9 @@ namespace BoxIdDb
             // 
             this.pnlInvoice.BackColor = System.Drawing.Color.Lime;
             this.pnlInvoice.Controls.Add(this.btnEditShipping);
+            this.pnlInvoice.Controls.Add(this.btnUpInv);
             this.pnlInvoice.Enabled = false;
-            this.pnlInvoice.Location = new System.Drawing.Point(347, 207);
+            this.pnlInvoice.Location = new System.Drawing.Point(301, 197);
             this.pnlInvoice.Name = "pnlInvoice";
             this.pnlInvoice.Size = new System.Drawing.Size(208, 29);
             this.pnlInvoice.TabIndex = 49;
@@ -382,7 +384,7 @@ namespace BoxIdDb
             // 
             // btnAdd517
             // 
-            this.btnAdd517.Location = new System.Drawing.Point(149, 240);
+            this.btnAdd517.Location = new System.Drawing.Point(169, 231);
             this.btnAdd517.Name = "btnAdd517";
             this.btnAdd517.Size = new System.Drawing.Size(114, 25);
             this.btnAdd517.TabIndex = 6;
@@ -392,13 +394,23 @@ namespace BoxIdDb
             // 
             // btnAddBoxID523
             // 
-            this.btnAddBoxID523.Location = new System.Drawing.Point(269, 240);
+            this.btnAddBoxID523.Location = new System.Drawing.Point(409, 231);
             this.btnAddBoxID523.Name = "btnAddBoxID523";
-            this.btnAddBoxID523.Size = new System.Drawing.Size(101, 23);
+            this.btnAddBoxID523.Size = new System.Drawing.Size(114, 25);
             this.btnAddBoxID523.TabIndex = 50;
             this.btnAddBoxID523.Text = "Add Box ID 523";
             this.btnAddBoxID523.UseVisualStyleBackColor = true;
             this.btnAddBoxID523.Click += new System.EventHandler(this.btnAddBoxID523_Click);
+            // 
+            // btnAddBoxID517FB
+            // 
+            this.btnAddBoxID517FB.Location = new System.Drawing.Point(289, 231);
+            this.btnAddBoxID517FB.Name = "btnAddBoxID517FB";
+            this.btnAddBoxID517FB.Size = new System.Drawing.Size(114, 25);
+            this.btnAddBoxID517FB.TabIndex = 51;
+            this.btnAddBoxID517FB.Text = "Add Box ID 517FB";
+            this.btnAddBoxID517FB.UseVisualStyleBackColor = true;
+            this.btnAddBoxID517FB.Click += new System.EventHandler(this.btnAddBoxID517FB_Click);
             // 
             // frmBox
             // 
@@ -406,13 +418,13 @@ namespace BoxIdDb
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(698, 730);
+            this.Controls.Add(this.btnAddBoxID517FB);
             this.Controls.Add(this.btnAddBoxID523);
             this.Controls.Add(this.txtBoxIdTo);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.rdbShipDate);
             this.Controls.Add(this.dtpShipDate);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.btnUpInv);
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.rdbProductSerial);
             this.Controls.Add(this.rdbPrintDate);
@@ -487,6 +499,7 @@ namespace BoxIdDb
         private System.Windows.Forms.DataGridViewTextBoxColumn col_invoice;
         private System.Windows.Forms.Button btnAdd517;
         private System.Windows.Forms.Button btnAddBoxID523;
+        private System.Windows.Forms.Button btnAddBoxID517FB;
     }
 }
 

@@ -48,3 +48,4 @@ D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDb.csproj.Generate
 D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDB.TrustInfo.xml
 D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDB.exe.manifest
 D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDB.application
+D:\GIT\DangKhoa\NCVC\BoxId DB CAR ncvc\MovieDB\obj\Debug\BoxIdDb.frmModule517FB.resources
