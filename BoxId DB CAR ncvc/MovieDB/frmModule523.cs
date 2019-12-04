@@ -620,7 +620,11 @@ namespace BoxIdDb
                 }
 
                 TfSQL tf = new TfSQL();
-                bool res1 = tf.sqlMultipleInsertOverall(dt);
+                bool res1;
+                if(cmbModel.Text == "LA20_523AB")
+                   res1 = tf.sqlMultipleInsert523AB(dt);
+                else
+                    res1 = tf.sqlMultipleInsert523AC(dt);
 
                 if (res1)
                 {
@@ -801,8 +805,12 @@ namespace BoxIdDb
                         System.Diagnostics.Debug.Print(buff);
                     }
                 }
+                bool res2;
+                if (cmbModel.Text == "LA20_523AB")
+                    res2 = tf.sqlMultipleInsert523AB(dt);
+                else
+                    res2 = tf.sqlMultipleInsert523AC(dt);
 
-                bool res2 = tf.sqlMultipleInsertOverall(dt);
 
                 if (!res1 || !res2)
                 {

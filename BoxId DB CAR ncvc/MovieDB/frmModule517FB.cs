@@ -27,10 +27,10 @@ namespace BoxIdDb
         int okCount;
         bool inputBoxModeOriginal;
         string productTable;
-        string testerTableThisMonth;
-        string testerTableLastMonth;
-        string tableThisMonth;
-        string tableLastMonth;
+        string inLineTableThisMonth;
+        string inLineTableLastMonth;
+        string oqcTableThisMonth;
+        string oqcTableLastMonth;
         DataTable dtOverall;
         int limit1 = 40;
         public int limit2 = 0;
@@ -417,8 +417,8 @@ namespace BoxIdDb
                         "MAX(case inspect when 'CIO_CCW' then inspectdata else null end) as CIO_CCW," +
                         "MAX(case inspect when 'CNO_CCW' then inspectdata else null end) as CNO_CCW" +
                         " FROM" +
-                        " (select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge from (select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE from (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag from (select * from " + testerTableThisMonth + "data" +
-                        " WHERE serno = (select serno from " + testerTableThisMonth + " where process = 'NMT3' and serno = '" + serial + "' LIMIT 1) and inspect in ('CG_CCW','CIO_CCW','CNO_CCW'))" + "a group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c," + "(select serno, tjudge from " + testerTableThisMonth + " where serno = '" + serial + "' and process = 'NMT3' and tjudge = '0' order by inspectdate desc LIMIT 1) d" +
+                        " (select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge from (select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE from (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag from (select * from " + oqcTableThisMonth + "data" +
+                        " WHERE serno = (select serno from " + oqcTableThisMonth + " where process = 'NMT4' and serno = '" + serial + "' LIMIT 1) and inspect in ('CG_CCW','CIO_CCW','CNO_CCW'))" + "a group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c," + "(select serno, tjudge from " + oqcTableThisMonth + " where serno = '" + serial + "' and process = 'NMT4' and tjudge = '0' order by inspectdate desc LIMIT 1) d" +
                         " group by d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge) e " +
                         " GROUP BY serno, tjudge, inspectdate" +
 
@@ -429,8 +429,8 @@ namespace BoxIdDb
                         "MAX(case inspect when 'CIO_CCW' then inspectdata else null end) as CIO_CCW," +
                         "MAX(case inspect when 'CNO_CCW' then inspectdata else null end) as CNO_CCW" +
                         " FROM" +
-                        " (select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge from (select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE from (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag from (select * from " + testerTableLastMonth + "data" +
-                        " WHERE serno = (select serno from " + testerTableLastMonth + " where process = 'NMT3' and serno = '" + serial + "' LIMIT 1) and inspect in ('CG_CCW','CIO_CCW','CNO_CCW'))" + "a group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c," + "(select serno, tjudge from " + testerTableLastMonth + " where serno = '" + serial + "' and process = 'NMT3' and tjudge = '0' order by inspectdate desc LIMIT 1) d" +
+                        " (select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge from (select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE from (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag from (select * from " + oqcTableLastMonth + "data" +
+                        " WHERE serno = (select serno from " + oqcTableLastMonth + " where process = 'NMT4' and serno = '" + serial + "' LIMIT 1) and inspect in ('CG_CCW','CIO_CCW','CNO_CCW'))" + "a group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c," + "(select serno, tjudge from " + oqcTableLastMonth + " where serno = '" + serial + "' and process = 'NMT4' and tjudge = '0' order by inspectdate desc LIMIT 1) d" +
                         " group by d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge) e " +
                         " GROUP BY serno, tjudge, inspectdate";
 
@@ -448,8 +448,8 @@ namespace BoxIdDb
                         "MAX(case inspect when 'ANR_CCW' then inspectdata else null end) as ANR_CCW," +
                         "MAX(case inspect when 'AIS_CCW' then inspectdata else null end) as AIS_CCW" +
                         " FROM" +
-                        " (select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge FROM(select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE FROM (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag FROM (select * from " + tableThisMonth + "data" +
-                        " WHERE serno = (select lot from " + testerTableThisMonth + " where process = 'NO53' and serno = '" + serial + "' LIMIT 1) and inspect in ('AIO_CCW','AIR_CCW','AIS_CCW','ANO_CCW','ANR_CCW'))" + "a group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c," + "(select serno, tjudge from " + tableThisMonth + " where serno = '" + serial + "' and process = 'NO41' order by inspectdate desc LIMIT 1) d" +
+                        " (select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge FROM(select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE FROM (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag FROM (select * from " + inLineTableThisMonth + "data" +
+                        " WHERE serno = '" + serial + "' and inspect in ('AIO_CCW','AIR_CCW','AIS_CCW','ANO_CCW','ANR_CCW'))" + "a group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c," + "(select serno, tjudge from " + inLineTableThisMonth + " where serno = '" + serial + "' and process = 'NO41' order by inspectdate desc LIMIT 1) d" +
                         " group by d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge) e " +
                         " GROUP BY serno, tjudge, inspectdate" +
 
@@ -462,8 +462,8 @@ namespace BoxIdDb
                         "MAX(case inspect when 'ANR_CCW' then inspectdata else null end) as ANR_CCW," +
                         "MAX(case inspect when 'AIS_CCW' then inspectdata else null end) as AIS_CCW" +
                         " FROM" +
-                        " (select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge FROM(select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE FROM (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag FROM (select * from " + tableLastMonth + "data" +
-                        " WHERE serno = (select lot from " + testerTableThisMonth + " where process = 'NO53' and serno = '" + serial + "' LIMIT 1) and inspect in ('AIO_CCW','AIR_CCW','AIS_CCW','ANO_CCW','ANR_CCW'))" + "a group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c," + "(select serno, tjudge from " + tableLastMonth + " where serno = '" + serial + "' and process = 'NO41' order by inspectdate desc LIMIT 1) d" +
+                        " (select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge FROM(select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE FROM (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag FROM (select * from " + inLineTableLastMonth + "data" +
+                        " WHERE serno = '" + serial + "' and inspect in ('AIO_CCW','AIR_CCW','AIS_CCW','ANO_CCW','ANR_CCW'))" + "a group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c," + "(select serno, tjudge from " + inLineTableLastMonth + " where serno = '" + serial + "' and process = 'NO41' order by inspectdate desc LIMIT 1) d" +
                         " group by d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge) e " +
                         " GROUP BY serno, tjudge, inspectdate" +
 
@@ -476,8 +476,8 @@ namespace BoxIdDb
                         "MAX(case inspect when 'ANR_CCW' then inspectdata else null end) as ANR_CCW," +
                         "MAX(case inspect when 'AIS_CCW' then inspectdata else null end) as AIS_CCW" +
                         " FROM" +
-                        " (select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge FROM(select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE FROM (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag FROM (select * from " + tableLastMonth + "data" +
-                        " WHERE serno = (select lot from " + testerTableLastMonth + " where process = 'NO53' and serno = '" + serial + "' LIMIT 1) and inspect in ('AIO_CCW','AIR_CCW','AIS_CCW','ANO_CCW','ANR_CCW'))" + "a group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c," + "(select serno, tjudge from " + tableLastMonth + " where serno = '" + serial + "' and process = 'NO41' order by inspectdate desc LIMIT 1) d" +
+                        " (select d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge FROM(select SERNO, INSPECTDATE, INSPECT, INSPECTDATA, JUDGE FROM (select SERNO, INSPECT, INSPECTDATA, JUDGE, max(inspectdate) as inspectdate, row_number() OVER(PARTITION BY inspect ORDER BY max(inspectdate) desc) as flag FROM (select * from " + inLineTableLastMonth + "data" +
+                        " WHERE serno = '" + serial + "' and inspect in ('AIO_CCW','AIR_CCW','AIS_CCW','ANO_CCW','ANR_CCW'))" + "a group by SERNO, INSPECTDATE , INSPECT , INSPECTDATA , JUDGE ) b where flag = 1) c," + "(select serno, tjudge from " + inLineTableLastMonth + " where serno = '" + serial + "' and process = 'NO41' order by inspectdate desc LIMIT 1) d" +
                         " group by d.serno, d.tjudge, c.inspectdate, c.inspect, c.inspectdata, c.judge) e " +
                         " GROUP BY serno, tjudge, inspectdate";
                         System.Diagnostics.Debug.Print(System.Environment.NewLine + sql1);
@@ -490,7 +490,8 @@ namespace BoxIdDb
 
                         dr["model"] = model.Substring(0, 4) + "V" + model.Substring(4);
                         dr["serialno"] = serial;
-                        dr["lot"] = VBS.Mid(serial, 12, 6).Length < 6 ? "Error" : VBS.Mid(serial, 12, 6);
+                        //dr["lot"] = VBS.Mid(serial, 12, 6).Length < 6 ? "Error" : VBS.Mid(serial, 12, 6);
+                        dr["lot"] = (VBS.Left(serial, 3).Length < 3) || (VBS.Left(serial, 3).Length > 3) ? "Error" : VBS.Left(serial, 3);
                         dr["return"] = formReturnMode ? "R" : "N";
 
                         if (dt2.Rows.Count != 0)
@@ -555,11 +556,14 @@ namespace BoxIdDb
 
         private void decideReferenceTable()
         {
-            testerTableThisMonth = cmbModel.Text + DateTime.Today.ToString("yyyyMM");
-            tableThisMonth = testerTableThisMonth;
-            testerTableLastMonth = cmbModel.Text + ((VBS.Right(DateTime.Today.ToString("yyyyMM"), 2) != "01") ?
+            string m = cmbModel.Text;
+            string m1 = m.Remove(m.Length - 1);
+            oqcTableThisMonth = m + DateTime.Today.ToString("yyyyMM");
+            oqcTableLastMonth = m + ((VBS.Right(DateTime.Today.ToString("yyyyMM"), 2) != "01") ?
                 (long.Parse(DateTime.Today.ToString("yyyyMM")) - 1).ToString() : (long.Parse(DateTime.Today.ToString("yyyy")) - 1).ToString() + "12");
-            tableLastMonth = testerTableLastMonth;
+            inLineTableThisMonth = m1 + DateTime.Today.ToString("yyyyMM");
+            inLineTableLastMonth = m1 + ((VBS.Right(DateTime.Today.ToString("yyyyMM"), 2) != "01") ?
+                (long.Parse(DateTime.Today.ToString("yyyyMM")) - 1).ToString() : (long.Parse(DateTime.Today.ToString("yyyy")) - 1).ToString() + "12");
         }
 
         private void btnPrint_Click(object sender, EventArgs e)
@@ -615,7 +619,7 @@ namespace BoxIdDb
                 }
 
                 TfSQL tf = new TfSQL();
-                bool res1 = tf.sqlMultipleInsertOverall(dt);
+                bool res1 = tf.sqlMultipleInsert517FB(dt);
 
                 if (res1)
                 {
@@ -797,7 +801,7 @@ namespace BoxIdDb
                     }
                 }
 
-                bool res2 = tf.sqlMultipleInsertOverall(dt);
+                bool res2 = tf.sqlMultipleInsert517FB(dt);
 
                 if (!res1 || !res2)
                 {
