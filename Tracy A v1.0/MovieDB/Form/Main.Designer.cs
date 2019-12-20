@@ -204,7 +204,7 @@ namespace Tracy
             this.cmbModelNo.FormattingEnabled = true;
             this.cmbModelNo.Location = new System.Drawing.Point(113, 46);
             this.cmbModelNo.Name = "cmbModelNo";
-            this.cmbModelNo.Size = new System.Drawing.Size(104, 21);
+            this.cmbModelNo.Size = new System.Drawing.Size(188, 21);
             this.cmbModelNo.TabIndex = 52;
             this.cmbModelNo.SelectedIndexChanged += new System.EventHandler(this.cmbModelNo_SelectedIndexChanged);
             // 
@@ -241,7 +241,7 @@ namespace Tracy
             this.cmbSubAssyNo.FormattingEnabled = true;
             this.cmbSubAssyNo.Location = new System.Drawing.Point(113, 100);
             this.cmbSubAssyNo.Name = "cmbSubAssyNo";
-            this.cmbSubAssyNo.Size = new System.Drawing.Size(96, 21);
+            this.cmbSubAssyNo.Size = new System.Drawing.Size(188, 21);
             this.cmbSubAssyNo.TabIndex = 56;
             this.cmbSubAssyNo.SelectedIndexChanged += new System.EventHandler(this.cmbSubAssyNo_SelectedIndexChanged);
             // 

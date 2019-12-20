@@ -227,3 +227,24 @@ D:\GIT HUB\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy.csproj.GenerateResource.Cac
 D:\GIT HUB\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy A.TrustInfo.xml
 D:\GIT HUB\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy A.exe.manifest
 D:\GIT HUB\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy A.application
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy.csproj.ResolveComReference.cache
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy A.exe
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy A.pdb
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy.csprojResolveAssemblyReference.cache
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy.Input.resources
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy.Login.resources
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy.Main.resources
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy.Properties.Resources.resources
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy.csproj.GenerateResource.Cache
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy A.TrustInfo.xml
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\bin\Debug\Interop.VBIDE.dll
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\bin\Debug\LKBSDK.dll
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\bin\Debug\Tracy A.exe.manifest
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\bin\Debug\Tracy A.application
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\bin\Debug\Tracy A.exe
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\bin\Debug\Tracy A.pdb
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\bin\Debug\MathNet.Numerics.dll
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\bin\Debug\MathNet.Numerics.xml
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy A.exe.manifest
+D:\GIT\DangKhoa\NCVC\Tracy A v1.0\MovieDB\obj\Debug\Tracy A.application
