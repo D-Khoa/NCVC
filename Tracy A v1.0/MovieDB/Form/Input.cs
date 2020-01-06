@@ -1077,8 +1077,10 @@ namespace Tracy
 
             if (batchOld != string.Empty)
             {
+                string[] temp = batchOld.Split('#');
+                string datetemp = temp[temp.Length - 2];
                 //dateOld = DateTime.ParseExact(VBStrings.Mid(batchOld, 12, 6), "yyMMdd", CultureInfo.InvariantCulture);
-                dateOld = DateTime.ParseExact(batchOld.Split('#')[1], "yyMMdd", CultureInfo.InvariantCulture);
+                dateOld = DateTime.ParseExact(datetemp, "yyMMdd", CultureInfo.InvariantCulture);
                 numberOld = long.Parse(VBStrings.Right(batchOld, 4));
             }
 
