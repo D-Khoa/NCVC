@@ -206,3 +206,24 @@ D:\GIT HUB\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.csproj.GenerateResource.C
 D:\GIT HUB\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.TrustInfo.xml
 D:\GIT HUB\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.exe.manifest
 D:\GIT HUB\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.application
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.csproj.ResolveComReference.cache
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.csprojResolveAssemblyReference.cache
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.Input.resources
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.Login.resources
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.Main.resources
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.Properties.Resources.resources
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.csproj.GenerateResource.Cache
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\bin\Debug\Interop.VBIDE.dll
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\bin\Debug\LKBSDK.dll
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\bin\Debug\MathNet.Numerics.dll
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\bin\Debug\MathNet.Numerics.xml
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\bin\Debug\Tracy.exe.manifest
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\bin\Debug\Tracy.application
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\bin\Debug\Tracy.exe
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\bin\Debug\Tracy.pdb
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.TrustInfo.xml
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.exe.manifest
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.application
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.exe
+D:\GIT\DangKhoa\NCVC\Tracy CAR v2.0\MovieDB\obj\Debug\Tracy.pdb
