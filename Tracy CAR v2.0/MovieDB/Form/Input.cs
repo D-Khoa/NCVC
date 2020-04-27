@@ -918,6 +918,27 @@ namespace Tracy
                 case "LA20V-517EB":
                     tablekey = "la20_517eb";
                     break;
+                case "LA20V-523AB":
+                    tablekey = "la20_523ab";
+                    break;
+                case "LA20V-523AC":
+                    tablekey = "la20_523ac";
+                    break;
+                case "LA20V-517FB":
+                    tablekey = "la20_517fb";
+                    break;
+                case "LD20-001":
+                    tablekey = "ld20_001";
+                    break;
+                case "BMD-0015":
+                    tablekey = "bmd_0015";
+                    break;
+                case "BMD-0016":
+                    tablekey = "bmd_0016";
+                    break;
+                case "BMD-0019":
+                    tablekey = "bmd_0019";
+                    break;
                 default:
                     tablekey = "la20_517bc";
                     break;
